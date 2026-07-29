@@ -1,59 +1,59 @@
 # Solana Ecosystem Report
-_Generated 2026-07-28T20:42:18+00:00_
+_Generated 2026-07-29T23:54:44+00:00_
 
 ## Anomalies
 
-- **[CRITICAL]** TPS spike: 31201.26 vs rolling baseline 4189.8 (644.7%).
+- **[CRITICAL]** TPS drop: 3214.27 vs rolling baseline 31201.26 (-89.7%).
 
 ## Network performance
 
 | Metric | Value |
 |---|---|
-| Current slot | 123,456,789 |
-| Current epoch | 812 |
-| Epoch progress | 48.61% |
-| Avg TPS (recent) | 31,201.26 |
-| Max TPS (recent) | 39,145.82 |
-| Avg slot time | 400.07 ms |
+| Current slot | 436,044,559 |
+| Current epoch | 1,009 |
+| Epoch progress | 36.23% |
+| Avg TPS (recent) | 3,214.27 |
+| Max TPS (recent) | 3,969.42 |
+| Avg slot time | 423.41 ms |
 | Cluster health | ok |
 
 ## Validator status
 
-- Active validators: **1,200**
-- Delinquent validators: **2**
-- Delinquency rate: **0.17%**
-- Total active stake: **216,706,965.47 SOL**
-- Median commission: **7.0%**
+- Active validators: **693**
+- Delinquent validators: **12**
+- Delinquency rate: **1.7%**
+- Total active stake: **428,355,204.47 SOL**
+- Median commission: **5%**
 
 ### Top validators by stake
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 |---|---|---|---|---|
-| 1 | `Vote0000…` | 27,308,137.73 | 12.601% | 8% |
-| 2 | `Vote0001…` | 15,105,861.3 | 6.971% | 7% |
-| 3 | `Vote0002…` | 12,899,066.85 | 5.952% | 5% |
-| 4 | `Vote0003…` | 632,119.66 | 0.292% | 8% |
-| 5 | `Vote0004…` | 607,788.75 | 0.28% | 5% |
-| 6 | `Vote0008…` | 534,303.71 | 0.247% | 100% |
-| 7 | `Vote0005…` | 489,042.98 | 0.226% | 10% |
-| 8 | `Vote0019…` | 421,326.98 | 0.194% | 10% |
-| 9 | `Vote0011…` | 410,512.38 | 0.189% | 5% |
-| 10 | `Vote0014…` | 398,019.12 | 0.184% | 10% |
+| 1 | `CcaHc2L4…` | 16,884,686.62 | 3.942% | 7% |
+| 2 | `he1iusun…` | 15,936,000.65 | 3.72% | 0% |
+| 3 | `CatzoSMU…` | 12,514,279.74 | 2.921% | 5% |
+| 4 | `3N7s9zXM…` | 12,205,908.25 | 2.849% | 0% |
+| 5 | `26pV97Ce…` | 9,211,312.28 | 2.15% | 7% |
+| 6 | `51JBzSTU…` | 8,236,625.47 | 1.923% | 10% |
+| 7 | `8GbwASqd…` | 8,148,575.89 | 1.902% | 0% |
+| 8 | `9QU2QSxh…` | 7,637,416.02 | 1.783% | 7% |
+| 9 | `CvSb7wdQ…` | 6,798,605.04 | 1.587% | 5% |
+| 10 | `DumiCKHV…` | 6,632,406.76 | 1.548% | 0% |
 
 ## Economic indicators
 
 | Metric | Value |
 |---|---|
-| SOL price | $198.42 |
-| 24h price change | 4.85% |
-| Market cap | $103,500,000,000 |
-| 24h volume | $3,800,000,000 |
-| Solana TVL | $9,820,000,000 |
-| TVL 24h change | 1.76% |
-| DEX volume (24h) | $1,450,000,000 |
-| Stablecoin supply | $11,200,000,000 |
-| Median tx fee | 10,000.0 lamports |
-| Est. REV / block | $5.9635 |
+| SOL price | $73.57 |
+| 24h price change | -0.22% |
+| Market cap | $42,642,919,895.24 |
+| 24h volume | $1,791,622,999.888866 |
+| Solana TVL | $4,759,304,894 |
+| TVL 24h change | -0.9% |
+| DEX volume (24h) | $1,736,687,117.1499999 |
+| Stablecoin supply | $16,168,726,782.560001 |
+| Median tx fee | 5,000 lamports |
+| Est. REV / block | $1.8245 |
 
 ## Ecosystem growth
 
@@ -67,6 +67,11 @@ _Generated 2026-07-28T20:42:18+00:00_
 - **Alpenglow** — _In community review / staged rollout_ — Proposed consensus overhaul (Votor + Rotor) targeting ~100-150ms finality, replacing PoH/Tower BFT.
 - **SIMD-0225 (Alpenglow governance proposal)** — _Tracking validator vote_ — On-chain validator vote to approve the Alpenglow consensus change.
 - **Fee market / SIMD proposals** — _Varies — check solana.com/news for the latest_ — Ongoing proposals adjusting local fee markets and priority fee mechanics.
+
+## Sources unavailable this run
+
+- `demo_address_balance`: RPC error calling getBalance: {'code': -32602, 'message': 'Invalid param: WrongSize'}
+- `demo_address_recent_signatures`: RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}
 
 ---
 _Generated automatically by the Solana Ecosystem Report pipeline. Data sources: Solana public RPC, DeFiLlama, CoinGecko._
