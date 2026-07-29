@@ -1,0 +1,151 @@
+{
+  "generated_at_utc": "2026-07-28T20:42:18+00:00",
+  "network_performance": {
+    "current_slot": 123456789,
+    "current_epoch": 812,
+    "epoch_progress_pct": 48.61,
+    "slot_index_in_epoch": 210000,
+    "slots_in_epoch": 432000,
+    "avg_tps_recent": 31201.26,
+    "max_tps_recent": 39145.82,
+    "avg_slot_time_ms": 400.07,
+    "latest_block_time_unix": 1785271338,
+    "cluster_health": "ok"
+  },
+  "validator_status": {
+    "active_validator_count": 1200,
+    "delinquent_validator_count": 2,
+    "delinquency_pct": 0.17,
+    "total_active_stake_sol": 216706965.47,
+    "top_validators_by_stake": [
+      {
+        "vote_pubkey": "Vote0000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "node_pubkey": "Node0000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "activated_stake_sol": 27308137.73,
+        "stake_share_pct": 12.601,
+        "commission_pct": 8
+      },
+      {
+        "vote_pubkey": "Vote0001xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "node_pubkey": "Node0001xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "activated_stake_sol": 15105861.3,
+        "stake_share_pct": 6.971,
+        "commission_pct": 7
+      },
+      {
+        "vote_pubkey": "Vote0002xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "node_pubkey": "Node0002xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "activated_stake_sol": 12899066.85,
+        "stake_share_pct": 5.952,
+        "commission_pct": 5
+      },
+      {
+        "vote_pubkey": "Vote0003xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "node_pubkey": "Node0003xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "activated_stake_sol": 632119.66,
+        "stake_share_pct": 0.292,
+        "commission_pct": 8
+      },
+      {
+        "vote_pubkey": "Vote0004xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "node_pubkey": "Node0004xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "activated_stake_sol": 607788.75,
+        "stake_share_pct": 0.28,
+        "commission_pct": 5
+      },
+      {
+        "vote_pubkey": "Vote0008xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "node_pubkey": "Node0008xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "activated_stake_sol": 534303.71,
+        "stake_share_pct": 0.247,
+        "commission_pct": 100
+      },
+      {
+        "vote_pubkey": "Vote0005xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "node_pubkey": "Node0005xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "activated_stake_sol": 489042.98,
+        "stake_share_pct": 0.226,
+        "commission_pct": 10
+      },
+      {
+        "vote_pubkey": "Vote0019xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "node_pubkey": "Node0019xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "activated_stake_sol": 421326.98,
+        "stake_share_pct": 0.194,
+        "commission_pct": 10
+      },
+      {
+        "vote_pubkey": "Vote0011xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "node_pubkey": "Node0011xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "activated_stake_sol": 410512.38,
+        "stake_share_pct": 0.189,
+        "commission_pct": 5
+      },
+      {
+        "vote_pubkey": "Vote0014xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "node_pubkey": "Node0014xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "activated_stake_sol": 398019.12,
+        "stake_share_pct": 0.184,
+        "commission_pct": 10
+      }
+    ],
+    "avg_commission_pct": 19.64,
+    "median_commission_pct": 7.0,
+    "zero_commission_validator_count": 307
+  },
+  "economic_indicators": {
+    "sol_price_usd": 198.42,
+    "sol_price_change_24h_pct": 4.85,
+    "sol_market_cap_usd": 103500000000,
+    "sol_24h_volume_usd": 3800000000,
+    "solana_tvl_usd": 9820000000,
+    "solana_tvl_change_24h_pct": 1.76,
+    "solana_dex_volume_24h_usd": 1450000000,
+    "solana_stablecoin_supply_usd": 11200000000,
+    "median_tx_fee_lamports": 10000.0,
+    "estimated_rev_usd_per_block": 5.9635
+  },
+  "fee_and_rev_detail": {
+    "sample_available": true,
+    "sampled_slot": 123456700,
+    "sampled_transaction_count": 1800,
+    "median_fee_lamports": 10000.0,
+    "mean_fee_lamports": 16697.22,
+    "estimated_rev_sol_per_block": 0.030055,
+    "estimated_rev_usd_per_block": 5.9635,
+    "note": "REV estimate = base+priority fees from one sampled finalized block. Excludes off-chain MEV."
+  },
+  "ecosystem_growth": {
+    "tokenized_equities_volume_usd": null,
+    "daily_active_addresses": null,
+    "note": "Both metrics require either a Dune Analytics API key tied to a specific dashboard, or a paid indexer \u2014 no keyless public endpoint currently covers Solana-wide tokenized RWA volume or unique daily active addresses. See README for how to wire in a Dune API key if you have one."
+  },
+  "upcoming_developments": [
+    {
+      "name": "Alpenglow",
+      "summary": "Proposed consensus overhaul (Votor + Rotor) targeting ~100-150ms finality, replacing PoH/Tower BFT.",
+      "status": "In community review / staged rollout"
+    },
+    {
+      "name": "SIMD-0225 (Alpenglow governance proposal)",
+      "summary": "On-chain validator vote to approve the Alpenglow consensus change.",
+      "status": "Tracking validator vote"
+    },
+    {
+      "name": "Fee market / SIMD proposals",
+      "summary": "Ongoing proposals adjusting local fee markets and priority fee mechanics.",
+      "status": "Varies \u2014 check solana.com/news for the latest"
+    }
+  ],
+  "source_errors": {},
+  "anomalies": [
+    {
+      "metric": "avg_tps_recent",
+      "severity": "critical",
+      "message": "TPS spike: 31201.26 vs rolling baseline 4189.8 (644.7%).",
+      "value": 31201.26,
+      "baseline": 4189.8,
+      "deviation_pct": 644.7
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Intentionally empty.
+#
+# This project uses only the Python standard library (urllib, json,
+# statistics, argparse, datetime, html) — no `requests`, no SDKs, no
+# API keys. Any Python 3.8+ interpreter can run it with zero `pip
+# install` steps. See README.md for why this was a deliberate choice.
