@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-07-29T23:54:44+00:00",
+  "generated_at_utc": "2026-07-30T00:07:40+00:00",
   "network_performance": {
-    "current_slot": 436044559,
+    "current_slot": 436046393,
     "current_epoch": 1009,
-    "epoch_progress_pct": 36.23,
-    "slot_index_in_epoch": 156528,
+    "epoch_progress_pct": 36.66,
+    "slot_index_in_epoch": 158362,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 3214.27,
+    "avg_tps_recent": 3243.34,
     "max_tps_recent": 3969.42,
-    "avg_slot_time_ms": 423.41,
-    "latest_block_time_unix": 1785369273,
+    "avg_slot_time_ms": 422.09,
+    "latest_block_time_unix": 1785370045,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -94,25 +94,25 @@
     "zero_commission_validator_count": 266
   },
   "economic_indicators": {
-    "sol_price_usd": 73.57,
-    "sol_price_change_24h_pct": -0.22,
-    "sol_market_cap_usd": 42642919895.24,
-    "sol_24h_volume_usd": 1791622999.888866,
+    "sol_price_usd": 73.62,
+    "sol_price_change_24h_pct": -0.43,
+    "sol_market_cap_usd": 42655960858.29583,
+    "sol_24h_volume_usd": 1727021727.7204785,
     "solana_tvl_usd": 4759304894,
     "solana_tvl_change_24h_pct": -0.9,
     "solana_dex_volume_24h_usd": 1736687117.1499999,
     "solana_stablecoin_supply_usd": 16168726782.560001,
-    "median_tx_fee_lamports": 5000,
-    "estimated_rev_usd_per_block": 1.8245
+    "median_tx_fee_lamports": 5001.0,
+    "estimated_rev_usd_per_block": 1.2875
   },
   "fee_and_rev_detail": {
     "sample_available": true,
-    "sampled_slot": 436044508,
-    "sampled_transaction_count": 1759,
-    "median_fee_lamports": 5000,
-    "mean_fee_lamports": 14098.69,
-    "estimated_rev_sol_per_block": 0.0248,
-    "estimated_rev_usd_per_block": 1.8245,
+    "sampled_slot": 436046342,
+    "sampled_transaction_count": 1832,
+    "median_fee_lamports": 5001.0,
+    "mean_fee_lamports": 9546.45,
+    "estimated_rev_sol_per_block": 0.017489,
+    "estimated_rev_usd_per_block": 1.2875,
     "note": "REV estimate = base+priority fees from one sampled finalized block. Excludes off-chain MEV."
   },
   "ecosystem_growth": {
@@ -145,10 +145,10 @@
     {
       "metric": "avg_tps_recent",
       "severity": "critical",
-      "message": "TPS drop: 3214.27 vs rolling baseline 31201.26 (-89.7%).",
-      "value": 3214.27,
-      "baseline": 31201.26,
-      "deviation_pct": -89.7
+      "message": "TPS drop: 3243.34 vs rolling baseline 24204.51 (-86.6%).",
+      "value": 3243.34,
+      "baseline": 24204.51,
+      "deviation_pct": -86.6
     }
   ]
 }
