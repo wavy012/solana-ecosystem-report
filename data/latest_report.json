@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-08-07T14:08:44+00:00",
+  "generated_at_utc": "2026-08-07T15:23:14+00:00",
   "network_performance": {
-    "current_slot": 437802393,
+    "current_slot": 437812965,
     "current_epoch": 1013,
-    "epoch_progress_pct": 43.14,
-    "slot_index_in_epoch": 186362,
+    "epoch_progress_pct": 45.59,
+    "slot_index_in_epoch": 196934,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 4272.78,
-    "max_tps_recent": 4975.82,
-    "avg_slot_time_ms": 422.85,
-    "latest_block_time_unix": 1786111713,
+    "avg_tps_recent": 4313.38,
+    "max_tps_recent": 4828.63,
+    "avg_slot_time_ms": 423.24,
+    "latest_block_time_unix": 1786116183,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -94,25 +94,25 @@
     "zero_commission_validator_count": 262
   },
   "economic_indicators": {
-    "sol_price_usd": 73.84,
-    "sol_price_change_24h_pct": 0.92,
-    "sol_market_cap_usd": 42977839426.59423,
-    "sol_24h_volume_usd": 1492880755.1297586,
-    "solana_tvl_usd": 4732690879,
-    "solana_tvl_change_24h_pct": -1.19,
+    "sol_price_usd": 73.78,
+    "sol_price_change_24h_pct": 0.61,
+    "sol_market_cap_usd": 42939307031.51174,
+    "sol_24h_volume_usd": 1522557958.7725575,
+    "solana_tvl_usd": 4750230694,
+    "solana_tvl_change_24h_pct": -0.83,
     "solana_dex_volume_24h_usd": 1379094026.1799998,
     "solana_stablecoin_supply_usd": 16232917793.9,
-    "median_tx_fee_lamports": 5005.0,
-    "estimated_rev_usd_per_block": 2.1904
+    "median_tx_fee_lamports": 5001.0,
+    "estimated_rev_usd_per_block": 1.6591
   },
   "fee_and_rev_detail": {
     "sample_available": true,
-    "sampled_slot": 437802342,
-    "sampled_transaction_count": 2092,
-    "median_fee_lamports": 5005.0,
-    "mean_fee_lamports": 14179.62,
-    "estimated_rev_sol_per_block": 0.029664,
-    "estimated_rev_usd_per_block": 2.1904,
+    "sampled_slot": 437812914,
+    "sampled_transaction_count": 1648,
+    "median_fee_lamports": 5001.0,
+    "mean_fee_lamports": 13645.08,
+    "estimated_rev_sol_per_block": 0.022487,
+    "estimated_rev_usd_per_block": 1.6591,
     "note": "REV estimate = base+priority fees from one sampled finalized block. Excludes off-chain MEV."
   },
   "ecosystem_growth": {
@@ -141,5 +141,14 @@
     "demo_address_balance": "RPC error calling getBalance: {'code': -32602, 'message': 'Invalid param: WrongSize'}",
     "demo_address_recent_signatures": "RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}"
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "avg_tps_recent",
+      "severity": "warning",
+      "message": "TPS spike: 4313.38 vs rolling baseline 3313.12 (30.2%).",
+      "value": 4313.38,
+      "baseline": 3313.12,
+      "deviation_pct": 30.2
+    }
+  ]
 }
