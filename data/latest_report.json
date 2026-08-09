@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-08-09T21:57:05+00:00",
+  "generated_at_utc": "2026-08-09T22:29:39+00:00",
   "network_performance": {
-    "current_slot": 438277883,
+    "current_slot": 438282478,
     "current_epoch": 1014,
-    "epoch_progress_pct": 53.21,
-    "slot_index_in_epoch": 229851,
+    "epoch_progress_pct": 54.27,
+    "slot_index_in_epoch": 234447,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 3679.44,
-    "max_tps_recent": 4326.75,
-    "avg_slot_time_ms": 422.15,
-    "latest_block_time_unix": 1786312614,
+    "avg_tps_recent": 4013.17,
+    "max_tps_recent": 4931.53,
+    "avg_slot_time_ms": 425.16,
+    "latest_block_time_unix": 1786314568,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -94,25 +94,25 @@
     "zero_commission_validator_count": 258
   },
   "economic_indicators": {
-    "sol_price_usd": 77.3,
-    "sol_price_change_24h_pct": 1.51,
-    "sol_market_cap_usd": 45015509933.65819,
-    "sol_24h_volume_usd": 1038362183.6586714,
+    "sol_price_usd": 77.41,
+    "sol_price_change_24h_pct": 1.61,
+    "sol_market_cap_usd": 45065160152.45276,
+    "sol_24h_volume_usd": 1058155160.5704104,
     "solana_tvl_usd": 4858898159,
     "solana_tvl_change_24h_pct": 2.65,
     "solana_dex_volume_24h_usd": 1493144029.54,
     "solana_stablecoin_supply_usd": 16240710841.79,
     "median_tx_fee_lamports": 5000,
-    "estimated_rev_usd_per_block": 1.7967
+    "estimated_rev_usd_per_block": 1.8509
   },
   "fee_and_rev_detail": {
     "sample_available": true,
-    "sampled_slot": 438277832,
+    "sampled_slot": 438282427,
     "sampled_transaction_count": 1539,
     "median_fee_lamports": 5000,
-    "mean_fee_lamports": 15102.67,
-    "estimated_rev_sol_per_block": 0.023243,
-    "estimated_rev_usd_per_block": 1.7967,
+    "mean_fee_lamports": 15536.64,
+    "estimated_rev_sol_per_block": 0.023911,
+    "estimated_rev_usd_per_block": 1.8509,
     "note": "REV estimate = base+priority fees from one sampled finalized block. Excludes off-chain MEV."
   },
   "ecosystem_growth": {
