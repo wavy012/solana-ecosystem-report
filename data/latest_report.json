@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-08-15T07:50:36+00:00",
+  "generated_at_utc": "2026-08-15T08:20:08+00:00",
   "network_performance": {
-    "current_slot": 439393590,
+    "current_slot": 439397870,
     "current_epoch": 1017,
-    "epoch_progress_pct": 11.47,
-    "slot_index_in_epoch": 49558,
+    "epoch_progress_pct": 12.46,
+    "slot_index_in_epoch": 53839,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 2764.32,
-    "max_tps_recent": 3059.07,
-    "avg_slot_time_ms": 417.71,
-    "latest_block_time_unix": 1786780226,
+    "avg_tps_recent": 2831.34,
+    "max_tps_recent": 3266.42,
+    "avg_slot_time_ms": 416.11,
+    "latest_block_time_unix": 1786781999,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -95,24 +95,24 @@
   },
   "economic_indicators": {
     "sol_price_usd": 75.19,
-    "sol_price_change_24h_pct": -0.52,
-    "sol_market_cap_usd": 43822180322.4083,
-    "sol_24h_volume_usd": 1021331639.6221466,
-    "solana_tvl_usd": 4817875980,
+    "sol_price_change_24h_pct": -0.51,
+    "sol_market_cap_usd": 43813615691.2471,
+    "sol_24h_volume_usd": 1014284503.2494231,
+    "solana_tvl_usd": 4817583660,
     "solana_tvl_change_24h_pct": -0.4,
     "solana_dex_volume_24h_usd": 1640281987.56,
     "solana_stablecoin_supply_usd": 15992583771.130001,
     "median_tx_fee_lamports": 5000.0,
-    "estimated_rev_usd_per_block": 0.7555
+    "estimated_rev_usd_per_block": 2.1571
   },
   "fee_and_rev_detail": {
     "sample_available": true,
-    "sampled_slot": 439393539,
-    "sampled_transaction_count": 1150,
+    "sampled_slot": 439397819,
+    "sampled_transaction_count": 844,
     "median_fee_lamports": 5000.0,
-    "mean_fee_lamports": 8737.7,
-    "estimated_rev_sol_per_block": 0.010048,
-    "estimated_rev_usd_per_block": 0.7555,
+    "mean_fee_lamports": 33991.21,
+    "estimated_rev_sol_per_block": 0.028689,
+    "estimated_rev_usd_per_block": 2.1571,
     "note": "REV estimate = base+priority fees from one sampled finalized block. Excludes off-chain MEV."
   },
   "ecosystem_growth": {
