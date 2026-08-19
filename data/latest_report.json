@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-08-19T21:20:11+00:00",
+  "generated_at_utc": "2026-08-19T21:49:06+00:00",
   "network_performance": {
-    "current_slot": 440341875,
+    "current_slot": 440346033,
     "current_epoch": 1019,
-    "epoch_progress_pct": 30.98,
-    "slot_index_in_epoch": 133845,
+    "epoch_progress_pct": 31.95,
+    "slot_index_in_epoch": 138003,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 6133.47,
-    "max_tps_recent": 7877.4,
-    "avg_slot_time_ms": 417.27,
-    "latest_block_time_unix": 1787174393,
+    "avg_tps_recent": 5141.24,
+    "max_tps_recent": 6158.27,
+    "avg_slot_time_ms": 417.63,
+    "latest_block_time_unix": 1787176130,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -94,25 +94,25 @@
     "zero_commission_validator_count": 257
   },
   "economic_indicators": {
-    "sol_price_usd": 86.08,
-    "sol_price_change_24h_pct": 11.89,
-    "sol_market_cap_usd": 50150904872.325096,
-    "sol_24h_volume_usd": 3848454098.431745,
+    "sol_price_usd": 86.9,
+    "sol_price_change_24h_pct": 13.01,
+    "sol_market_cap_usd": 50663190308.738976,
+    "sol_24h_volume_usd": 4043886099.6372104,
     "solana_tvl_usd": 5099526492,
     "solana_tvl_change_24h_pct": 5.15,
     "solana_dex_volume_24h_usd": 1838194723.04,
     "solana_stablecoin_supply_usd": 15994521920.57,
-    "median_tx_fee_lamports": 5142,
-    "estimated_rev_usd_per_block": 3.5758
+    "median_tx_fee_lamports": 5009.0,
+    "estimated_rev_usd_per_block": 17.6182
   },
   "fee_and_rev_detail": {
     "sample_available": true,
-    "sampled_slot": 440341824,
-    "sampled_transaction_count": 2471,
-    "median_fee_lamports": 5142,
-    "mean_fee_lamports": 16811.22,
-    "estimated_rev_sol_per_block": 0.041541,
-    "estimated_rev_usd_per_block": 3.5758,
+    "sampled_slot": 440345982,
+    "sampled_transaction_count": 2584,
+    "median_fee_lamports": 5009.0,
+    "mean_fee_lamports": 78460.05,
+    "estimated_rev_sol_per_block": 0.202741,
+    "estimated_rev_usd_per_block": 17.6182,
     "note": "REV estimate = base+priority fees from one sampled finalized block. Excludes off-chain MEV."
   },
   "ecosystem_growth": {
@@ -143,18 +143,10 @@
   },
   "anomalies": [
     {
-      "metric": "avg_tps_recent",
-      "severity": "warning",
-      "message": "TPS spike: 6133.47 vs rolling baseline 4500.16 (36.3%).",
-      "value": 6133.47,
-      "baseline": 4500.16,
-      "deviation_pct": 36.3
-    },
-    {
       "metric": "sol_price_change_24h_pct",
       "severity": "info",
-      "message": "SOL price up 11.89% in 24h (>= 10% threshold).",
-      "value": 11.89,
+      "message": "SOL price up 13.01% in 24h (>= 10% threshold).",
+      "value": 13.01,
       "threshold": 10
     }
   ]
