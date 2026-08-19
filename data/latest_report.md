@@ -1,5 +1,5 @@
 # Solana Ecosystem Report
-_Generated 2026-08-19T19:48:09+00:00_
+_Generated 2026-08-19T20:19:56+00:00_
 
 ## Anomalies
 
@@ -9,21 +9,21 @@ _Generated 2026-08-19T19:48:09+00:00_
 
 | Metric | Value |
 |---|---|
-| Current slot | 440,328,675 |
+| Current slot | 440,333,215 |
 | Current epoch | 1,019 |
-| Epoch progress | 27.93% |
-| Avg TPS (recent) | 4,716.76 |
-| Max TPS (recent) | 5,843.03 |
-| Avg slot time | 414.67 ms |
+| Epoch progress | 28.98% |
+| Avg TPS (recent) | 4,893.69 |
+| Max TPS (recent) | 5,756.68 |
+| Avg slot time | 419.94 ms |
 | Cluster health | ok |
 
 ## Validator status
 
-- Active validators: **687**
-- Delinquent validators: **8**
-- Delinquency rate: **1.15%**
+- Active validators: **686**
+- Delinquent validators: **9**
+- Delinquency rate: **1.29%**
 - Total active stake: **435,241,267.84 SOL**
-- Median commission: **5%**
+- Median commission: **5.0%**
 
 ### Top validators by stake
 
@@ -44,16 +44,16 @@ _Generated 2026-08-19T19:48:09+00:00_
 
 | Metric | Value |
 |---|---|
-| SOL price | $82.23 |
-| 24h price change | 6.57% |
-| Market cap | $47,939,005,373.59502 |
-| 24h volume | $3,187,863,593.593883 |
-| Solana TVL | $5,081,764,121 |
-| TVL 24h change | 4.78% |
+| SOL price | $82.34 |
+| 24h price change | 6.88% |
+| Market cap | $48,019,219,966.14133 |
+| 24h volume | $3,190,614,087.814535 |
+| Solana TVL | $5,085,822,024 |
+| TVL 24h change | 4.87% |
 | DEX volume (24h) | $1,838,194,723.04 |
 | Stablecoin supply | $15,994,521,920.57 |
-| Median tx fee | 5,000.0 lamports |
-| Est. REV / block | $2.3995 |
+| Median tx fee | — |
+| Est. REV / block | $— |
 
 ## Ecosystem growth
 
@@ -72,6 +72,7 @@ _Generated 2026-08-19T19:48:09+00:00_
 
 - `demo_address_balance`: RPC error calling getBalance: {'code': -32602, 'message': 'Invalid param: WrongSize'}
 - `demo_address_recent_signatures`: RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}
+- `sample_block`: RPC error calling getBlock: {'code': -32007, 'message': 'Slot 440333165 was skipped, or missing due to ledger jump to recent snapshot'}
 
 ---
 _Generated automatically by the Solana Ecosystem Report pipeline. Data sources: Solana public RPC, DeFiLlama, CoinGecko._
