@@ -1,5 +1,5 @@
 # Solana Ecosystem Report
-_Generated 2026-08-19T20:19:56+00:00_
+_Generated 2026-08-19T20:52:52+00:00_
 
 ## Anomalies
 
@@ -9,19 +9,19 @@ _Generated 2026-08-19T20:19:56+00:00_
 
 | Metric | Value |
 |---|---|
-| Current slot | 440,333,215 |
+| Current slot | 440,337,942 |
 | Current epoch | 1,019 |
-| Epoch progress | 28.98% |
-| Avg TPS (recent) | 4,893.69 |
-| Max TPS (recent) | 5,756.68 |
-| Avg slot time | 419.94 ms |
+| Epoch progress | 30.07% |
+| Avg TPS (recent) | 4,650.71 |
+| Max TPS (recent) | 7,493.73 |
+| Avg slot time | 416.67 ms |
 | Cluster health | ok |
 
 ## Validator status
 
-- Active validators: **686**
-- Delinquent validators: **9**
-- Delinquency rate: **1.29%**
+- Active validators: **688**
+- Delinquent validators: **8**
+- Delinquency rate: **1.15%**
 - Total active stake: **435,241,267.84 SOL**
 - Median commission: **5.0%**
 
@@ -44,16 +44,16 @@ _Generated 2026-08-19T20:19:56+00:00_
 
 | Metric | Value |
 |---|---|
-| SOL price | $82.34 |
-| 24h price change | 6.88% |
-| Market cap | $48,019,219,966.14133 |
-| 24h volume | $3,190,614,087.814535 |
-| Solana TVL | $5,085,822,024 |
+| SOL price | $82.99 |
+| 24h price change | 8.12% |
+| Market cap | $48,271,180,241.89321 |
+| 24h volume | $3,360,472,782.6326675 |
+| Solana TVL | $5,085,971,736 |
 | TVL 24h change | 4.87% |
 | DEX volume (24h) | $1,838,194,723.04 |
 | Stablecoin supply | $15,994,521,920.57 |
-| Median tx fee | — |
-| Est. REV / block | $— |
+| Median tx fee | 6,099 lamports |
+| Est. REV / block | $14.9154 |
 
 ## Ecosystem growth
 
@@ -72,7 +72,6 @@ _Generated 2026-08-19T20:19:56+00:00_
 
 - `demo_address_balance`: RPC error calling getBalance: {'code': -32602, 'message': 'Invalid param: WrongSize'}
 - `demo_address_recent_signatures`: RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}
-- `sample_block`: RPC error calling getBlock: {'code': -32007, 'message': 'Slot 440333165 was skipped, or missing due to ledger jump to recent snapshot'}
 
 ---
 _Generated automatically by the Solana Ecosystem Report pipeline. Data sources: Solana public RPC, DeFiLlama, CoinGecko._
