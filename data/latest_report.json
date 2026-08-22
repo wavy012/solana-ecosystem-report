@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-08-22T12:27:05+00:00",
+  "generated_at_utc": "2026-08-22T13:09:28+00:00",
   "network_performance": {
-    "current_slot": 440921717,
+    "current_slot": 440928670,
     "current_epoch": 1020,
-    "epoch_progress_pct": 65.21,
-    "slot_index_in_epoch": 281686,
+    "epoch_progress_pct": 66.81,
+    "slot_index_in_epoch": 288639,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 3433.93,
-    "max_tps_recent": 3955.62,
-    "avg_slot_time_ms": 368.4,
-    "latest_block_time_unix": 1787401615,
+    "avg_tps_recent": 3197.23,
+    "max_tps_recent": 3557.93,
+    "avg_slot_time_ms": 364.7,
+    "latest_block_time_unix": 1787404152,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -94,25 +94,25 @@
     "zero_commission_validator_count": 255
   },
   "economic_indicators": {
-    "sol_price_usd": 94.13,
-    "sol_price_change_24h_pct": 4.28,
-    "sol_market_cap_usd": 54901152782.83529,
-    "sol_24h_volume_usd": 8574974245.313586,
+    "sol_price_usd": 93.72,
+    "sol_price_change_24h_pct": 3.11,
+    "sol_market_cap_usd": 54660709402.47931,
+    "sol_24h_volume_usd": 8503775827.046433,
     "solana_tvl_usd": 5528875328,
     "solana_tvl_change_24h_pct": 3.69,
     "solana_dex_volume_24h_usd": 3600948276.22,
     "solana_stablecoin_supply_usd": 16402051992.95,
     "median_tx_fee_lamports": 5000.0,
-    "estimated_rev_usd_per_block": 1.4565
+    "estimated_rev_usd_per_block": 11.3901
   },
   "fee_and_rev_detail": {
     "sample_available": true,
-    "sampled_slot": 440921666,
-    "sampled_transaction_count": 1202,
+    "sampled_slot": 440928619,
+    "sampled_transaction_count": 1120,
     "median_fee_lamports": 5000.0,
-    "mean_fee_lamports": 12872.77,
-    "estimated_rev_sol_per_block": 0.015473,
-    "estimated_rev_usd_per_block": 1.4565,
+    "mean_fee_lamports": 108511.62,
+    "estimated_rev_sol_per_block": 0.121533,
+    "estimated_rev_usd_per_block": 11.3901,
     "note": "REV estimate = base+priority fees from one sampled finalized block. Excludes off-chain MEV."
   },
   "ecosystem_growth": {
