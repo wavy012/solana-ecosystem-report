@@ -1,118 +1,118 @@
 {
-  "generated_at_utc": "2026-08-23T03:28:33+00:00",
+  "generated_at_utc": "2026-08-23T04:09:44+00:00",
   "network_performance": {
-    "current_slot": 441068926,
-    "current_epoch": 1020,
-    "epoch_progress_pct": 99.28,
-    "slot_index_in_epoch": 428896,
+    "current_slot": 441075716,
+    "current_epoch": 1021,
+    "epoch_progress_pct": 0.85,
+    "slot_index_in_epoch": 3685,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 4099.23,
-    "max_tps_recent": 4539.78,
-    "avg_slot_time_ms": 367.75,
-    "latest_block_time_unix": 1787455697,
+    "avg_tps_recent": 3921.01,
+    "max_tps_recent": 4536.37,
+    "avg_slot_time_ms": 364.71,
+    "latest_block_time_unix": 1787458175,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 685,
-    "delinquent_validator_count": 10,
-    "delinquency_pct": 1.44,
-    "total_active_stake_sol": 433485334.04,
+    "active_validator_count": 684,
+    "delinquent_validator_count": 11,
+    "delinquency_pct": 1.58,
+    "total_active_stake_sol": 433436312.73,
     "top_validators_by_stake": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
         "node_pubkey": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "activated_stake_sol": 17066371.97,
-        "stake_share_pct": 3.937,
+        "activated_stake_sol": 16984006.16,
+        "stake_share_pct": 3.918,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
         "node_pubkey": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "activated_stake_sol": 16054077.97,
-        "stake_share_pct": 3.703,
+        "activated_stake_sol": 16032940.56,
+        "stake_share_pct": 3.699,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
         "node_pubkey": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        "activated_stake_sol": 12175412.97,
-        "stake_share_pct": 2.809,
+        "activated_stake_sol": 12211670.54,
+        "stake_share_pct": 2.817,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
         "node_pubkey": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
-        "activated_stake_sol": 11782031.72,
-        "stake_share_pct": 2.718,
+        "activated_stake_sol": 11728737.5,
+        "stake_share_pct": 2.706,
         "commission_pct": 5
       },
       {
         "vote_pubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
         "node_pubkey": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "activated_stake_sol": 9178661.12,
-        "stake_share_pct": 2.117,
+        "activated_stake_sol": 9165201.62,
+        "stake_share_pct": 2.115,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
         "node_pubkey": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
-        "activated_stake_sol": 8917576.63,
-        "stake_share_pct": 2.057,
+        "activated_stake_sol": 8876408.04,
+        "stake_share_pct": 2.048,
         "commission_pct": 10
       },
       {
         "vote_pubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
         "node_pubkey": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-        "activated_stake_sol": 8402660.19,
-        "stake_share_pct": 1.938,
+        "activated_stake_sol": 8480577.88,
+        "stake_share_pct": 1.957,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
         "node_pubkey": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "activated_stake_sol": 7964352.04,
-        "stake_share_pct": 1.837,
+        "activated_stake_sol": 7930730.6,
+        "stake_share_pct": 1.83,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
         "node_pubkey": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "activated_stake_sol": 7357820.58,
-        "stake_share_pct": 1.697,
+        "activated_stake_sol": 7359445.5,
+        "stake_share_pct": 1.698,
         "commission_pct": 5
       },
       {
         "vote_pubkey": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
         "node_pubkey": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "activated_stake_sol": 6547242.76,
-        "stake_share_pct": 1.51,
+        "activated_stake_sol": 6568550.89,
+        "stake_share_pct": 1.515,
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 12.17,
-    "median_commission_pct": 5,
-    "zero_commission_validator_count": 256
+    "avg_commission_pct": 11.88,
+    "median_commission_pct": 5.0,
+    "zero_commission_validator_count": 258
   },
   "economic_indicators": {
-    "sol_price_usd": 94.33,
-    "sol_price_change_24h_pct": -2.75,
-    "sol_market_cap_usd": 55013316523.13605,
-    "sol_24h_volume_usd": 7586826858.430382,
-    "solana_tvl_usd": 5594413868,
-    "solana_tvl_change_24h_pct": 0.69,
+    "sol_price_usd": 93.51,
+    "sol_price_change_24h_pct": -3.33,
+    "sol_market_cap_usd": 54604512290.91033,
+    "sol_24h_volume_usd": 7428987626.514249,
+    "solana_tvl_usd": 5562263625,
+    "solana_tvl_change_24h_pct": 0.09,
     "solana_dex_volume_24h_usd": 3648052188.89,
     "solana_stablecoin_supply_usd": 16350165371.91,
     "median_tx_fee_lamports": 5000,
-    "estimated_rev_usd_per_block": 1.7622
+    "estimated_rev_usd_per_block": 1.545
   },
   "fee_and_rev_detail": {
     "sample_available": true,
-    "sampled_slot": 441068875,
-    "sampled_transaction_count": 1317,
+    "sampled_slot": 441075665,
+    "sampled_transaction_count": 1347,
     "median_fee_lamports": 5000,
-    "mean_fee_lamports": 14184.88,
-    "estimated_rev_sol_per_block": 0.018681,
-    "estimated_rev_usd_per_block": 1.7622,
+    "mean_fee_lamports": 12266.17,
+    "estimated_rev_sol_per_block": 0.016523,
+    "estimated_rev_usd_per_block": 1.545,
     "note": "REV estimate = base+priority fees from one sampled finalized block. Excludes off-chain MEV."
   },
   "ecosystem_growth": {
