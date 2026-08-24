@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-08-24T20:23:03+00:00",
+  "generated_at_utc": "2026-08-24T20:57:16+00:00",
   "network_performance": {
-    "current_slot": 441472012,
+    "current_slot": 441477604,
     "current_epoch": 1021,
-    "epoch_progress_pct": 92.59,
-    "slot_index_in_epoch": 399980,
+    "epoch_progress_pct": 93.88,
+    "slot_index_in_epoch": 405574,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 4237.78,
-    "max_tps_recent": 4813.38,
-    "avg_slot_time_ms": 366.54,
-    "latest_block_time_unix": 1787602967,
+    "avg_tps_recent": 3875.46,
+    "max_tps_recent": 4496.07,
+    "avg_slot_time_ms": 366.8,
+    "latest_block_time_unix": 1787605018,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -94,25 +94,25 @@
     "zero_commission_validator_count": 255
   },
   "economic_indicators": {
-    "sol_price_usd": 96.11,
-    "sol_price_change_24h_pct": 0.91,
-    "sol_market_cap_usd": 56058986702.40757,
-    "sol_24h_volume_usd": 5254499548.642309,
-    "solana_tvl_usd": 5589162759,
+    "sol_price_usd": 96.37,
+    "sol_price_change_24h_pct": 1.4,
+    "sol_market_cap_usd": 56211056827.2732,
+    "sol_24h_volume_usd": 5390341761.401393,
+    "solana_tvl_usd": 5589311868,
     "solana_tvl_change_24h_pct": 0.57,
     "solana_dex_volume_24h_usd": 2938613605.25,
     "solana_stablecoin_supply_usd": 16431164599.43,
     "median_tx_fee_lamports": 5000,
-    "estimated_rev_usd_per_block": 1.7994
+    "estimated_rev_usd_per_block": 1.6142
   },
   "fee_and_rev_detail": {
     "sample_available": true,
-    "sampled_slot": 441471961,
-    "sampled_transaction_count": 1663,
+    "sampled_slot": 441477553,
+    "sampled_transaction_count": 1189,
     "median_fee_lamports": 5000,
-    "mean_fee_lamports": 11258.16,
-    "estimated_rev_sol_per_block": 0.018722,
-    "estimated_rev_usd_per_block": 1.7994,
+    "mean_fee_lamports": 14087.78,
+    "estimated_rev_sol_per_block": 0.01675,
+    "estimated_rev_usd_per_block": 1.6142,
     "note": "REV estimate = base+priority fees from one sampled finalized block. Excludes off-chain MEV."
   },
   "ecosystem_growth": {
