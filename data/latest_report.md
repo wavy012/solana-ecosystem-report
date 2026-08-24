@@ -1,5 +1,5 @@
 # Solana Ecosystem Report
-_Generated 2026-08-24T02:21:26+00:00_
+_Generated 2026-08-24T03:30:28+00:00_
 
 ## Anomalies
 
@@ -9,19 +9,19 @@ _Generated 2026-08-24T02:21:26+00:00_
 
 | Metric | Value |
 |---|---|
-| Current slot | 441,294,410 |
+| Current slot | 441,305,735 |
 | Current epoch | 1,021 |
-| Epoch progress | 51.48% |
-| Avg TPS (recent) | 3,847.68 |
-| Max TPS (recent) | 4,403.43 |
-| Avg slot time | 364.14 ms |
+| Epoch progress | 54.1% |
+| Avg TPS (recent) | 3,559.65 |
+| Max TPS (recent) | 3,803.23 |
+| Avg slot time | 365.07 ms |
 | Cluster health | ok |
 
 ## Validator status
 
-- Active validators: **682**
-- Delinquent validators: **13**
-- Delinquency rate: **1.87%**
+- Active validators: **684**
+- Delinquent validators: **11**
+- Delinquency rate: **1.58%**
 - Total active stake: **433,436,312.73 SOL**
 - Median commission: **5.0%**
 
@@ -44,16 +44,16 @@ _Generated 2026-08-24T02:21:26+00:00_
 
 | Metric | Value |
 |---|---|
-| SOL price | $94.59 |
-| 24h price change | -0.13% |
-| Market cap | $55,174,602,008.36973 |
-| 24h volume | $4,046,050,239.4928403 |
-| Solana TVL | $5,587,961,720 |
-| TVL 24h change | -0.05% |
-| DEX volume (24h) | $3,119,850,278.16 |
-| Stablecoin supply | $16,386,165,259.72 |
-| Median tx fee | 5,000.0 lamports |
-| Est. REV / block | $2.5712 |
+| SOL price | $93.89 |
+| 24h price change | -0.36% |
+| Market cap | $54,765,227,601.334785 |
+| 24h volume | $3,848,247,999.1265388 |
+| Solana TVL | $5,570,358,581 |
+| TVL 24h change | 0.25% |
+| DEX volume (24h) | $3,119,842,862.16 |
+| Stablecoin supply | $16,431,164,599.43 |
+| Median tx fee | — |
+| Est. REV / block | $— |
 
 ## Ecosystem growth
 
@@ -72,6 +72,7 @@ _Generated 2026-08-24T02:21:26+00:00_
 
 - `demo_address_balance`: RPC error calling getBalance: {'code': -32602, 'message': 'Invalid param: WrongSize'}
 - `demo_address_recent_signatures`: RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}
+- `sample_block`: RPC error calling getBlock: {'code': -32007, 'message': 'Slot 441305685 was skipped, or missing due to ledger jump to recent snapshot'}
 
 ---
 _Generated automatically by the Solana Ecosystem Report pipeline. Data sources: Solana public RPC, DeFiLlama, CoinGecko._
