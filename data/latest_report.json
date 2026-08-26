@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-08-26T16:13:27+00:00",
+  "generated_at_utc": "2026-08-26T18:13:18+00:00",
   "network_performance": {
-    "current_slot": 441903704,
+    "current_slot": 441923400,
     "current_epoch": 1022,
-    "epoch_progress_pct": 92.52,
-    "slot_index_in_epoch": 399675,
+    "epoch_progress_pct": 97.08,
+    "slot_index_in_epoch": 419369,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 4626.58,
-    "max_tps_recent": 5197.5,
-    "avg_slot_time_ms": 365.38,
-    "latest_block_time_unix": 1787760788,
+    "avg_tps_recent": 4133.87,
+    "max_tps_recent": 5062.28,
+    "avg_slot_time_ms": 365.68,
+    "latest_block_time_unix": 1787767986,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 686,
-    "delinquent_validator_count": 9,
-    "delinquency_pct": 1.29,
+    "active_validator_count": 687,
+    "delinquent_validator_count": 8,
+    "delinquency_pct": 1.15,
     "total_active_stake_sol": 435118103.78,
     "top_validators_by_stake": [
       {
@@ -89,30 +89,30 @@
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 12.32,
-    "median_commission_pct": 5.0,
-    "zero_commission_validator_count": 255
+    "avg_commission_pct": 12.3,
+    "median_commission_pct": 5,
+    "zero_commission_validator_count": 256
   },
   "economic_indicators": {
-    "sol_price_usd": 95.96,
-    "sol_price_change_24h_pct": -2.26,
-    "sol_market_cap_usd": 55985103853.40736,
-    "sol_24h_volume_usd": 3058058084.7014456,
-    "solana_tvl_usd": 5584133508,
-    "solana_tvl_change_24h_pct": -2.67,
+    "sol_price_usd": 97.01,
+    "sol_price_change_24h_pct": -1.44,
+    "sol_market_cap_usd": 56642740079.94986,
+    "sol_24h_volume_usd": 3059712366.955575,
+    "solana_tvl_usd": 5551257223,
+    "solana_tvl_change_24h_pct": -3.24,
     "solana_dex_volume_24h_usd": 2934986439.19,
     "solana_stablecoin_supply_usd": 16295118984.74,
     "median_tx_fee_lamports": 5000,
-    "estimated_rev_usd_per_block": 7.2633
+    "estimated_rev_usd_per_block": 3.5898
   },
   "fee_and_rev_detail": {
     "sample_available": true,
-    "sampled_slot": 441903653,
-    "sampled_transaction_count": 1475,
+    "sampled_slot": 441923349,
+    "sampled_transaction_count": 1693,
     "median_fee_lamports": 5000,
-    "mean_fee_lamports": 51315.97,
-    "estimated_rev_sol_per_block": 0.075691,
-    "estimated_rev_usd_per_block": 7.2633,
+    "mean_fee_lamports": 21857.6,
+    "estimated_rev_sol_per_block": 0.037005,
+    "estimated_rev_usd_per_block": 3.5898,
     "note": "REV estimate = base+priority fees from one sampled finalized block. Excludes off-chain MEV."
   },
   "ecosystem_growth": {
