@@ -1,118 +1,118 @@
 {
-  "generated_at_utc": "2026-08-30T00:30:00+00:00",
+  "generated_at_utc": "2026-08-30T05:42:32+00:00",
   "network_performance": {
-    "current_slot": 442743102,
-    "current_epoch": 1024,
-    "epoch_progress_pct": 86.82,
-    "slot_index_in_epoch": 375073,
+    "current_slot": 442802275,
+    "current_epoch": 1025,
+    "epoch_progress_pct": 0.52,
+    "slot_index_in_epoch": 2243,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 4313.98,
-    "max_tps_recent": 5144.5,
-    "avg_slot_time_ms": 320.24,
-    "latest_block_time_unix": 1788049782,
+    "avg_tps_recent": 3408.72,
+    "max_tps_recent": 3694.22,
+    "avg_slot_time_ms": 316.08,
+    "latest_block_time_unix": 1788068543,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 687,
-    "delinquent_validator_count": 10,
-    "delinquency_pct": 1.43,
-    "total_active_stake_sol": 436134289.14,
+    "active_validator_count": 681,
+    "delinquent_validator_count": 16,
+    "delinquency_pct": 2.3,
+    "total_active_stake_sol": 437127889.66,
     "top_validators_by_stake": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
         "node_pubkey": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "activated_stake_sol": 16991835.27,
-        "stake_share_pct": 3.896,
+        "activated_stake_sol": 17203740.86,
+        "stake_share_pct": 3.936,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
         "node_pubkey": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "activated_stake_sol": 16035736.89,
-        "stake_share_pct": 3.677,
+        "activated_stake_sol": 16085806.76,
+        "stake_share_pct": 3.68,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
         "node_pubkey": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        "activated_stake_sol": 12393242.27,
-        "stake_share_pct": 2.842,
+        "activated_stake_sol": 12389823.57,
+        "stake_share_pct": 2.834,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
         "node_pubkey": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
-        "activated_stake_sol": 11460006.58,
-        "stake_share_pct": 2.628,
+        "activated_stake_sol": 11479512.08,
+        "stake_share_pct": 2.626,
         "commission_pct": 5
-      },
-      {
-        "vote_pubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-        "node_pubkey": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "activated_stake_sol": 9292131.09,
-        "stake_share_pct": 2.131,
-        "commission_pct": 7
       },
       {
         "vote_pubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
         "node_pubkey": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-        "activated_stake_sol": 9081212.54,
-        "stake_share_pct": 2.082,
+        "activated_stake_sol": 9452658.3,
+        "stake_share_pct": 2.162,
         "commission_pct": 0
+      },
+      {
+        "vote_pubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
+        "node_pubkey": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+        "activated_stake_sol": 9293056.33,
+        "stake_share_pct": 2.126,
+        "commission_pct": 7
       },
       {
         "vote_pubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
         "node_pubkey": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
-        "activated_stake_sol": 9001203.78,
+        "activated_stake_sol": 9023631.15,
         "stake_share_pct": 2.064,
         "commission_pct": 10
       },
       {
         "vote_pubkey": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
         "node_pubkey": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "activated_stake_sol": 7294487.37,
-        "stake_share_pct": 1.673,
+        "activated_stake_sol": 7295972.23,
+        "stake_share_pct": 1.669,
         "commission_pct": 5
       },
       {
         "vote_pubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
         "node_pubkey": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "activated_stake_sol": 7192557.27,
-        "stake_share_pct": 1.649,
+        "activated_stake_sol": 7201761.97,
+        "stake_share_pct": 1.648,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
         "node_pubkey": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "activated_stake_sol": 6585995.53,
-        "stake_share_pct": 1.51,
+        "activated_stake_sol": 6589844.83,
+        "stake_share_pct": 1.508,
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 13.33,
+    "avg_commission_pct": 12.13,
     "median_commission_pct": 5,
-    "zero_commission_validator_count": 247
+    "zero_commission_validator_count": 250
   },
   "economic_indicators": {
-    "sol_price_usd": 105.4,
-    "sol_price_change_24h_pct": 0.93,
-    "sol_market_cap_usd": 61571232059.97386,
-    "sol_24h_volume_usd": 2253221096.252811,
-    "solana_tvl_usd": 5887820543,
-    "solana_tvl_change_24h_pct": -2.08,
-    "solana_dex_volume_24h_usd": 2590586442.2200003,
-    "solana_stablecoin_supply_usd": 16325456423.25,
+    "sol_price_usd": 105.01,
+    "sol_price_change_24h_pct": 0.95,
+    "sol_market_cap_usd": 61432368341.19105,
+    "sol_24h_volume_usd": 2105204911.7089436,
+    "solana_tvl_usd": 5906085918,
+    "solana_tvl_change_24h_pct": 0.62,
+    "solana_dex_volume_24h_usd": 1813163418.31,
+    "solana_stablecoin_supply_usd": 16275330340.23,
     "median_tx_fee_lamports": 5000.0,
-    "estimated_rev_usd_per_block": 2.9914
+    "estimated_rev_usd_per_block": 1.1438
   },
   "fee_and_rev_detail": {
     "sample_available": true,
-    "sampled_slot": 442743051,
-    "sampled_transaction_count": 1670,
+    "sampled_slot": 442802224,
+    "sampled_transaction_count": 1054,
     "median_fee_lamports": 5000.0,
-    "mean_fee_lamports": 16994.94,
-    "estimated_rev_sol_per_block": 0.028382,
-    "estimated_rev_usd_per_block": 2.9914,
+    "mean_fee_lamports": 10334.6,
+    "estimated_rev_sol_per_block": 0.010893,
+    "estimated_rev_usd_per_block": 1.1438,
     "note": "REV estimate = base+priority fees from one sampled finalized block. Excludes off-chain MEV."
   },
   "ecosystem_growth": {
