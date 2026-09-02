@@ -1,5 +1,5 @@
 # Solana Ecosystem Report
-_Generated 2026-09-02T17:58:41+00:00_
+_Generated 2026-09-02T20:41:02+00:00_
 
 ## Anomalies
 
@@ -9,12 +9,12 @@ _Generated 2026-09-02T17:58:41+00:00_
 
 | Metric | Value |
 |---|---|
-| Current slot | 443,759,506 |
+| Current slot | 443,790,548 |
 | Current epoch | 1,027 |
-| Epoch progress | 22.1% |
-| Avg TPS (recent) | — |
-| Max TPS (recent) | — |
-| Avg slot time | — |
+| Epoch progress | 29.29% |
+| Avg TPS (recent) | 4,037.88 |
+| Max TPS (recent) | 4,455.15 |
+| Avg slot time | 313.2 ms |
 | Cluster health | ok |
 
 ## Validator status
@@ -44,16 +44,16 @@ _Generated 2026-09-02T17:58:41+00:00_
 
 | Metric | Value |
 |---|---|
-| SOL price | $99.22 |
-| 24h price change | -1.36% |
-| Market cap | $58,074,837,197.75612 |
-| 24h volume | $3,343,700,564.1405115 |
-| Solana TVL | $5,670,544,117 |
-| TVL 24h change | -5.25% |
+| SOL price | $99.85 |
+| 24h price change | -0.12% |
+| Market cap | $58,437,880,888.6004 |
+| 24h volume | $2,946,469,402.4866014 |
+| Solana TVL | $5,679,611,735 |
+| TVL 24h change | -5.09% |
 | DEX volume (24h) | $2,171,560,050.49 |
 | Stablecoin supply | $15,833,595,398.75 |
 | Median tx fee | 5,000.0 lamports |
-| Est. REV / block | $1.5976 |
+| Est. REV / block | $1.338 |
 
 ## Ecosystem growth
 
@@ -70,7 +70,6 @@ _Generated 2026-09-02T17:58:41+00:00_
 
 ## Sources unavailable this run
 
-- `performance_samples`: Network error calling RPC method getRecentPerformanceSamples: _ssl.c:993: The handshake operation timed out
 - `demo_address_balance`: RPC error calling getBalance: {'code': -32602, 'message': 'Invalid param: WrongSize'}
 - `demo_address_recent_signatures`: RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}
 
