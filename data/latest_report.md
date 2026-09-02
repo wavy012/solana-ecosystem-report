@@ -1,5 +1,5 @@
 # Solana Ecosystem Report
-_Generated 2026-09-02T14:00:25+00:00_
+_Generated 2026-09-02T17:58:41+00:00_
 
 ## Anomalies
 
@@ -9,21 +9,21 @@ _Generated 2026-09-02T14:00:25+00:00_
 
 | Metric | Value |
 |---|---|
-| Current slot | 443,714,299 |
+| Current slot | 443,759,506 |
 | Current epoch | 1,027 |
-| Epoch progress | 11.64% |
-| Avg TPS (recent) | 4,014.33 |
-| Max TPS (recent) | 4,433.67 |
-| Avg slot time | 315.79 ms |
+| Epoch progress | 22.1% |
+| Avg TPS (recent) | — |
+| Max TPS (recent) | — |
+| Avg slot time | — |
 | Cluster health | ok |
 
 ## Validator status
 
-- Active validators: **677**
-- Delinquent validators: **18**
-- Delinquency rate: **2.59%**
+- Active validators: **676**
+- Delinquent validators: **19**
+- Delinquency rate: **2.73%**
 - Total active stake: **438,422,356.65 SOL**
-- Median commission: **5%**
+- Median commission: **5.0%**
 
 ### Top validators by stake
 
@@ -44,16 +44,16 @@ _Generated 2026-09-02T14:00:25+00:00_
 
 | Metric | Value |
 |---|---|
-| SOL price | $99.0 |
-| 24h price change | -2.73% |
-| Market cap | $57,944,194,762.19956 |
-| 24h volume | $3,441,610,495.8051777 |
-| Solana TVL | $5,618,905,761 |
-| TVL 24h change | -6.11% |
+| SOL price | $99.22 |
+| 24h price change | -1.36% |
+| Market cap | $58,074,837,197.75612 |
+| 24h volume | $3,343,700,564.1405115 |
+| Solana TVL | $5,670,544,117 |
+| TVL 24h change | -5.25% |
 | DEX volume (24h) | $2,171,560,050.49 |
 | Stablecoin supply | $15,833,595,398.75 |
-| Median tx fee | 5,000 lamports |
-| Est. REV / block | $1.2811 |
+| Median tx fee | 5,000.0 lamports |
+| Est. REV / block | $1.5976 |
 
 ## Ecosystem growth
 
@@ -70,6 +70,7 @@ _Generated 2026-09-02T14:00:25+00:00_
 
 ## Sources unavailable this run
 
+- `performance_samples`: Network error calling RPC method getRecentPerformanceSamples: _ssl.c:993: The handshake operation timed out
 - `demo_address_balance`: RPC error calling getBalance: {'code': -32602, 'message': 'Invalid param: WrongSize'}
 - `demo_address_recent_signatures`: RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}
 
