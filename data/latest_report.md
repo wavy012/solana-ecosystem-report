@@ -1,5 +1,5 @@
 # Solana Ecosystem Report
-_Generated 2026-09-15T02:58:04+00:00_
+_Generated 2026-09-15T08:27:50+00:00_
 
 ## Anomalies
 
@@ -9,12 +9,12 @@ _Generated 2026-09-15T02:58:04+00:00_
 
 | Metric | Value |
 |---|---|
-| Current slot | 447,141,561 |
+| Current slot | 447,204,220 |
 | Current epoch | 1,035 |
-| Epoch progress | 4.98% |
-| Avg TPS (recent) | 3,693.01 |
-| Max TPS (recent) | 4,000.38 |
-| Avg slot time | 315.33 ms |
+| Epoch progress | 19.49% |
+| Avg TPS (recent) | 3,425.89 |
+| Max TPS (recent) | 3,560.5 |
+| Avg slot time | 316.17 ms |
 | Cluster health | ok |
 
 ## Validator status
@@ -36,21 +36,21 @@ _Generated 2026-09-15T02:58:04+00:00_
 | 5 | `8GbwASqd…` | 9,669,319.45 | 2.201% | 0% |
 | 6 | `26pV97Ce…` | 9,256,224.98 | 2.107% | 7% |
 | 7 | `51JBzSTU…` | 9,035,102.59 | 2.057% | 10% |
-| 8 | `CvSb7wdQ…` | 6,944,775.01 | 1.581% | 5% |
-| 9 | `DumiCKHV…` | 6,553,625.65 | 1.492% | 0% |
-| 10 | `HZKopZYv…` | 6,112,428.98 | 1.392% | 100% |
+| 8 | `9QU2QSxh…` | 7,372,354.85 | 1.678% | 7% |
+| 9 | `CvSb7wdQ…` | 6,944,775.01 | 1.581% | 5% |
+| 10 | `DumiCKHV…` | 6,553,625.65 | 1.492% | 0% |
 
 ## Economic indicators
 
 | Metric | Value |
 |---|---|
-| SOL price | $102.01 |
-| 24h price change | 1.05% |
-| Market cap | $59,884,854,057.40883 |
-| 24h volume | $3,316,520,066.6417336 |
-| Solana TVL | $5,929,019,069 |
-| TVL 24h change | 0.73% |
-| DEX volume (24h) | $2,194,322,532.8500004 |
+| SOL price | $100.28 |
+| 24h price change | -1.27% |
+| Market cap | $58,874,897,861.29245 |
+| 24h volume | $3,314,494,834.7982154 |
+| Solana TVL | $5,865,376,907 |
+| TVL 24h change | 0.51% |
+| DEX volume (24h) | $2,212,763,996.8500004 |
 | Stablecoin supply | $16,368,181,115.99 |
 | Median tx fee | — |
 | Est. REV / block | $— |
