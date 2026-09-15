@@ -1,5 +1,5 @@
 # Solana Ecosystem Report
-_Generated 2026-09-14T23:55:20+00:00_
+_Generated 2026-09-15T02:58:04+00:00_
 
 ## Anomalies
 
@@ -9,51 +9,51 @@ _Generated 2026-09-14T23:55:20+00:00_
 
 | Metric | Value |
 |---|---|
-| Current slot | 447,106,823 |
-| Current epoch | 1,034 |
-| Epoch progress | 96.94% |
-| Avg TPS (recent) | 3,835.19 |
-| Max TPS (recent) | 4,321.85 |
-| Avg slot time | 315.05 ms |
+| Current slot | 447,141,561 |
+| Current epoch | 1,035 |
+| Epoch progress | 4.98% |
+| Avg TPS (recent) | 3,693.01 |
+| Max TPS (recent) | 4,000.38 |
+| Avg slot time | 315.33 ms |
 | Cluster health | ok |
 
 ## Validator status
 
-- Active validators: **679**
+- Active validators: **678**
 - Delinquent validators: **11**
-- Delinquency rate: **1.59%**
-- Total active stake: **438,740,367.09 SOL**
-- Median commission: **5%**
+- Delinquency rate: **1.6%**
+- Total active stake: **439,248,639.21 SOL**
+- Median commission: **5.0%**
 
 ### Top validators by stake
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 |---|---|---|---|---|
-| 1 | `CcaHc2L4…` | 17,568,188.64 | 4.004% | 7% |
-| 2 | `he1iusun…` | 16,361,599.42 | 3.729% | 0% |
-| 3 | `3N7s9zXM…` | 12,501,348.7 | 2.849% | 0% |
-| 4 | `CatzoSMU…` | 11,372,390.6 | 2.592% | 5% |
-| 5 | `8GbwASqd…` | 9,619,665.2 | 2.193% | 0% |
-| 6 | `26pV97Ce…` | 9,252,711.97 | 2.109% | 7% |
-| 7 | `51JBzSTU…` | 9,025,174.9 | 2.057% | 10% |
-| 8 | `9QU2QSxh…` | 7,367,885.16 | 1.679% | 7% |
-| 9 | `CvSb7wdQ…` | 6,943,003.36 | 1.582% | 5% |
-| 10 | `DumiCKHV…` | 6,552,506.03 | 1.493% | 0% |
+| 1 | `CcaHc2L4…` | 17,757,711.87 | 4.043% | 7% |
+| 2 | `he1iusun…` | 16,373,376.88 | 3.728% | 0% |
+| 3 | `3N7s9zXM…` | 12,492,604.95 | 2.844% | 0% |
+| 4 | `CatzoSMU…` | 11,369,566.14 | 2.588% | 5% |
+| 5 | `8GbwASqd…` | 9,669,319.45 | 2.201% | 0% |
+| 6 | `26pV97Ce…` | 9,256,224.98 | 2.107% | 7% |
+| 7 | `51JBzSTU…` | 9,035,102.59 | 2.057% | 10% |
+| 8 | `CvSb7wdQ…` | 6,944,775.01 | 1.581% | 5% |
+| 9 | `DumiCKHV…` | 6,553,625.65 | 1.492% | 0% |
+| 10 | `HZKopZYv…` | 6,112,428.98 | 1.392% | 100% |
 
 ## Economic indicators
 
 | Metric | Value |
 |---|---|
-| SOL price | $102.47 |
-| 24h price change | 3.14% |
-| Market cap | $60,138,698,550.039116 |
-| 24h volume | $3,401,743,555.376573 |
-| Solana TVL | $5,965,240,126 |
-| TVL 24h change | 0.99% |
-| DEX volume (24h) | $1,790,994,711.97 |
-| Stablecoin supply | $16,330,872,279.08 |
-| Median tx fee | 5,000 lamports |
-| Est. REV / block | $1.0518 |
+| SOL price | $102.01 |
+| 24h price change | 1.05% |
+| Market cap | $59,884,854,057.40883 |
+| 24h volume | $3,316,520,066.6417336 |
+| Solana TVL | $5,929,019,069 |
+| TVL 24h change | 0.73% |
+| DEX volume (24h) | $2,194,322,532.8500004 |
+| Stablecoin supply | $16,368,181,115.99 |
+| Median tx fee | — |
+| Est. REV / block | $— |
 
 ## Ecosystem growth
 
@@ -72,6 +72,7 @@ _Generated 2026-09-14T23:55:20+00:00_
 
 - `demo_address_balance`: RPC error calling getBalance: {'code': -32602, 'message': 'Invalid param: WrongSize'}
 - `demo_address_recent_signatures`: RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}
+- `sample_block`: RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: "maxSupportedTransactionVersion": 1'}
 
 ---
 _Generated automatically by the Solana Ecosystem Report pipeline. Data sources: Solana public RPC, DeFiLlama, CoinGecko._
