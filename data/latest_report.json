@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-09-15T23:21:50+00:00",
+  "generated_at_utc": "2026-09-16T01:30:48+00:00",
   "network_performance": {
-    "current_slot": 447373607,
+    "current_slot": 447397936,
     "current_epoch": 1035,
-    "epoch_progress_pct": 58.7,
-    "slot_index_in_epoch": 253576,
+    "epoch_progress_pct": 64.33,
+    "slot_index_in_epoch": 277900,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 4486.62,
-    "max_tps_recent": 5376.03,
-    "avg_slot_time_ms": 316.48,
-    "latest_block_time_unix": 1789514494,
+    "avg_tps_recent": 5045.14,
+    "max_tps_recent": 5493.3,
+    "avg_slot_time_ms": 319.75,
+    "latest_block_time_unix": 1789522238,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 679,
-    "delinquent_validator_count": 10,
-    "delinquency_pct": 1.45,
+    "active_validator_count": 677,
+    "delinquent_validator_count": 12,
+    "delinquency_pct": 1.74,
     "total_active_stake_sol": 439248639.21,
     "top_validators_by_stake": [
       {
@@ -89,19 +89,19 @@
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 12.63,
+    "avg_commission_pct": 12.65,
     "median_commission_pct": 5,
     "zero_commission_validator_count": 242
   },
   "economic_indicators": {
-    "sol_price_usd": 97.58,
-    "sol_price_change_24h_pct": -5.11,
-    "sol_market_cap_usd": 57263838296.983894,
-    "sol_24h_volume_usd": 3834107672.199086,
-    "solana_tvl_usd": 5729423494,
-    "solana_tvl_change_24h_pct": -1.82,
-    "solana_dex_volume_24h_usd": 2511771255.85,
-    "solana_stablecoin_supply_usd": 16368575516.93,
+    "sol_price_usd": 97.09,
+    "sol_price_change_24h_pct": -4.98,
+    "sol_market_cap_usd": 56997825654.26669,
+    "sol_24h_volume_usd": 3864793998.797791,
+    "solana_tvl_usd": 5722142855,
+    "solana_tvl_change_24h_pct": -1.95,
+    "solana_dex_volume_24h_usd": 2410890436.0099998,
+    "solana_stablecoin_supply_usd": 15946406232.42,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
   },
