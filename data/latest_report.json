@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-09-18T15:39:11+00:00",
+  "generated_at_utc": "2026-09-18T18:48:07+00:00",
   "network_performance": {
-    "current_slot": 448126367,
+    "current_slot": 448168847,
     "current_epoch": 1037,
-    "epoch_progress_pct": 32.95,
-    "slot_index_in_epoch": 142337,
+    "epoch_progress_pct": 42.78,
+    "slot_index_in_epoch": 184815,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 5154.22,
-    "max_tps_recent": 5741.75,
-    "avg_slot_time_ms": 266.95,
-    "latest_block_time_unix": 1789745936,
+    "avg_tps_recent": 4873.98,
+    "max_tps_recent": 5409.35,
+    "avg_slot_time_ms": 266.33,
+    "latest_block_time_unix": 1789757280,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 678,
-    "delinquent_validator_count": 10,
-    "delinquency_pct": 1.45,
+    "active_validator_count": 676,
+    "delinquent_validator_count": 12,
+    "delinquency_pct": 1.74,
     "total_active_stake_sol": 439612407.68,
     "top_validators_by_stake": [
       {
@@ -89,17 +89,17 @@
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 12.35,
+    "avg_commission_pct": 12.24,
     "median_commission_pct": 5.0,
     "zero_commission_validator_count": 243
   },
   "economic_indicators": {
-    "sol_price_usd": 110.69,
-    "sol_price_change_24h_pct": 9.77,
-    "sol_market_cap_usd": 65001158575.657326,
-    "sol_24h_volume_usd": 5526643756.411562,
-    "solana_tvl_usd": 6097419504,
-    "solana_tvl_change_24h_pct": 5.45,
+    "sol_price_usd": 112.46,
+    "sol_price_change_24h_pct": 11.36,
+    "sol_market_cap_usd": 66035819533.21782,
+    "sol_24h_volume_usd": 6120935622.5439825,
+    "solana_tvl_usd": 6183611142,
+    "solana_tvl_change_24h_pct": 6.95,
     "solana_dex_volume_24h_usd": 2592123183.29,
     "solana_stablecoin_supply_usd": 15692413727.49,
     "median_tx_fee_lamports": null,
@@ -141,5 +141,13 @@
     "demo_address_recent_signatures": "RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}",
     "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "sol_price_change_24h_pct",
+      "severity": "info",
+      "message": "SOL price up 11.36% in 24h (>= 10% threshold).",
+      "value": 11.36,
+      "threshold": 10
+    }
+  ]
 }
