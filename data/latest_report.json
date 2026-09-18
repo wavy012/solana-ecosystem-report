@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-09-18T21:23:08+00:00",
+  "generated_at_utc": "2026-09-18T23:26:22+00:00",
   "network_performance": {
-    "current_slot": 448203569,
+    "current_slot": 448231321,
     "current_epoch": 1037,
-    "epoch_progress_pct": 50.82,
-    "slot_index_in_epoch": 219537,
+    "epoch_progress_pct": 57.24,
+    "slot_index_in_epoch": 247290,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 5263.86,
-    "max_tps_recent": 5625.5,
-    "avg_slot_time_ms": 269.49,
-    "latest_block_time_unix": 1789766580,
+    "avg_tps_recent": 4622.46,
+    "max_tps_recent": 5208.65,
+    "avg_slot_time_ms": 266.15,
+    "latest_block_time_unix": 1789773973,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 676,
-    "delinquent_validator_count": 12,
-    "delinquency_pct": 1.74,
+    "active_validator_count": 677,
+    "delinquent_validator_count": 11,
+    "delinquency_pct": 1.6,
     "total_active_stake_sol": 439612407.68,
     "top_validators_by_stake": [
       {
@@ -89,17 +89,17 @@
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 12.54,
-    "median_commission_pct": 5.0,
+    "avg_commission_pct": 12.53,
+    "median_commission_pct": 5,
     "zero_commission_validator_count": 240
   },
   "economic_indicators": {
-    "sol_price_usd": 113.24,
-    "sol_price_change_24h_pct": 11.89,
-    "sol_market_cap_usd": 66513007690.044,
-    "sol_24h_volume_usd": 6601460893.530153,
-    "solana_tvl_usd": 6270419808,
-    "solana_tvl_change_24h_pct": 8.45,
+    "sol_price_usd": 113.1,
+    "sol_price_change_24h_pct": 11.37,
+    "sol_market_cap_usd": 66437358346.93927,
+    "sol_24h_volume_usd": 6596464688.485795,
+    "solana_tvl_usd": 6286014116,
+    "solana_tvl_change_24h_pct": 8.72,
     "solana_dex_volume_24h_usd": 2592123183.29,
     "solana_stablecoin_supply_usd": 15692413727.49,
     "median_tx_fee_lamports": null,
@@ -145,8 +145,8 @@
     {
       "metric": "sol_price_change_24h_pct",
       "severity": "info",
-      "message": "SOL price up 11.89% in 24h (>= 10% threshold).",
-      "value": 11.89,
+      "message": "SOL price up 11.37% in 24h (>= 10% threshold).",
+      "value": 11.37,
       "threshold": 10
     }
   ]
