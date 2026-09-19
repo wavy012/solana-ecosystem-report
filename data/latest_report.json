@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-09-19T01:23:11+00:00",
+  "generated_at_utc": "2026-09-19T06:12:22+00:00",
   "network_performance": {
-    "current_slot": 448257571,
+    "current_slot": 448322743,
     "current_epoch": 1037,
-    "epoch_progress_pct": 63.32,
-    "slot_index_in_epoch": 273539,
+    "epoch_progress_pct": 78.41,
+    "slot_index_in_epoch": 338712,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 4509.25,
-    "max_tps_recent": 5210.63,
-    "avg_slot_time_ms": 267.74,
-    "latest_block_time_unix": 1789780983,
+    "avg_tps_recent": 4015.81,
+    "max_tps_recent": 4406.87,
+    "avg_slot_time_ms": 266.21,
+    "latest_block_time_unix": 1789798333,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -94,14 +94,14 @@
     "zero_commission_validator_count": 240
   },
   "economic_indicators": {
-    "sol_price_usd": 113.06,
-    "sol_price_change_24h_pct": 11.23,
-    "sol_market_cap_usd": 66461953378.557556,
-    "sol_24h_volume_usd": 6827037323.692478,
-    "solana_tvl_usd": 6396259436,
-    "solana_tvl_change_24h_pct": 0.0,
-    "solana_dex_volume_24h_usd": 2978324017.6099997,
-    "solana_stablecoin_supply_usd": 15692413727.49,
+    "sol_price_usd": 111.85,
+    "sol_price_change_24h_pct": 6.15,
+    "sol_market_cap_usd": 65689170117.356895,
+    "sol_24h_volume_usd": 5869116358.48463,
+    "solana_tvl_usd": 6305089699,
+    "solana_tvl_change_24h_pct": 6.14,
+    "solana_dex_volume_24h_usd": 3257762192.43,
+    "solana_stablecoin_supply_usd": 15855850707.36,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
   },
@@ -141,13 +141,5 @@
     "demo_address_recent_signatures": "RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}",
     "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
   },
-  "anomalies": [
-    {
-      "metric": "sol_price_change_24h_pct",
-      "severity": "info",
-      "message": "SOL price up 11.23% in 24h (>= 10% threshold).",
-      "value": 11.23,
-      "threshold": 10
-    }
-  ]
+  "anomalies": []
 }
