@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-09-21T00:22:28+00:00",
+  "generated_at_utc": "2026-09-21T05:13:41+00:00",
   "network_performance": {
-    "current_slot": 448891949,
+    "current_slot": 448957399,
     "current_epoch": 1039,
-    "epoch_progress_pct": 10.17,
-    "slot_index_in_epoch": 43917,
+    "epoch_progress_pct": 25.32,
+    "slot_index_in_epoch": 109367,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 4932.23,
-    "max_tps_recent": 5412.3,
-    "avg_slot_time_ms": 267.75,
-    "latest_block_time_unix": 1789950139,
+    "avg_tps_recent": 4140.86,
+    "max_tps_recent": 4377.92,
+    "avg_slot_time_ms": 265.74,
+    "latest_block_time_unix": 1789967611,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 676,
-    "delinquent_validator_count": 14,
-    "delinquency_pct": 2.03,
+    "active_validator_count": 677,
+    "delinquent_validator_count": 13,
+    "delinquency_pct": 1.88,
     "total_active_stake_sol": 439905518.63,
     "top_validators_by_stake": [
       {
@@ -89,19 +89,19 @@
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 12.24,
-    "median_commission_pct": 5.0,
-    "zero_commission_validator_count": 241
+    "avg_commission_pct": 12.23,
+    "median_commission_pct": 5,
+    "zero_commission_validator_count": 242
   },
   "economic_indicators": {
-    "sol_price_usd": 112.39,
-    "sol_price_change_24h_pct": 1.51,
-    "sol_market_cap_usd": 65995585773.58428,
-    "sol_24h_volume_usd": 3342868125.478125,
-    "solana_tvl_usd": 6220622001,
-    "solana_tvl_change_24h_pct": -1.35,
-    "solana_dex_volume_24h_usd": 2876208374.2,
-    "solana_stablecoin_supply_usd": 15785662265.58,
+    "sol_price_usd": 111.29,
+    "sol_price_change_24h_pct": 1.98,
+    "sol_market_cap_usd": 65407217697.87097,
+    "sol_24h_volume_usd": 3377986738.6906805,
+    "solana_tvl_usd": 6265146342,
+    "solana_tvl_change_24h_pct": 1.43,
+    "solana_dex_volume_24h_usd": 2750994375.3599997,
+    "solana_stablecoin_supply_usd": 15885472242.89,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
   },
