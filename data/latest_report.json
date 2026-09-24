@@ -1,34 +1,34 @@
 {
-  "generated_at_utc": "2026-09-24T21:02:19+00:00",
+  "generated_at_utc": "2026-09-24T23:56:19+00:00",
   "network_performance": {
-    "current_slot": 450144476,
+    "current_slot": 450183583,
     "current_epoch": 1042,
-    "epoch_progress_pct": 0.1,
-    "slot_index_in_epoch": 445,
+    "epoch_progress_pct": 9.16,
+    "slot_index_in_epoch": 39551,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 4808.84,
-    "max_tps_recent": 5196.88,
-    "avg_slot_time_ms": 266.36,
-    "latest_block_time_unix": 1790283732,
+    "avg_tps_recent": 4345.01,
+    "max_tps_recent": 4718.28,
+    "avg_slot_time_ms": 266.83,
+    "latest_block_time_unix": 1790294170,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 676,
-    "delinquent_validator_count": 9,
-    "delinquency_pct": 1.31,
-    "total_active_stake_sol": 440637124.24,
+    "active_validator_count": 675,
+    "delinquent_validator_count": 10,
+    "delinquency_pct": 1.46,
+    "total_active_stake_sol": 440637195.88,
     "top_validators_by_stake": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
         "node_pubkey": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "activated_stake_sol": 17819006.14,
+        "activated_stake_sol": 17819006.99,
         "stake_share_pct": 4.044,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
         "node_pubkey": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "activated_stake_sol": 15817077.79,
+        "activated_stake_sol": 15817078.8,
         "stake_share_pct": 3.59,
         "commission_pct": 0
       },
@@ -42,7 +42,7 @@
       {
         "vote_pubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
         "node_pubkey": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
-        "activated_stake_sol": 11274981.74,
+        "activated_stake_sol": 11274982.49,
         "stake_share_pct": 2.559,
         "commission_pct": 5
       },
@@ -56,21 +56,21 @@
       {
         "vote_pubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
         "node_pubkey": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "activated_stake_sol": 9221888.2,
+        "activated_stake_sol": 9221892.64,
         "stake_share_pct": 2.093,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
         "node_pubkey": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
-        "activated_stake_sol": 9163087.9,
+        "activated_stake_sol": 9163087.97,
         "stake_share_pct": 2.08,
         "commission_pct": 10
       },
       {
         "vote_pubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
         "node_pubkey": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "activated_stake_sol": 7599957.52,
+        "activated_stake_sol": 7599959.38,
         "stake_share_pct": 1.725,
         "commission_pct": 7
       },
@@ -84,22 +84,22 @@
       {
         "vote_pubkey": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
         "node_pubkey": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "activated_stake_sol": 6557886.68,
+        "activated_stake_sol": 6557886.69,
         "stake_share_pct": 1.488,
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 12.57,
-    "median_commission_pct": 5.0,
+    "avg_commission_pct": 12.58,
+    "median_commission_pct": 5,
     "zero_commission_validator_count": 235
   },
   "economic_indicators": {
-    "sol_price_usd": 116.79,
-    "sol_price_change_24h_pct": 2.44,
-    "sol_market_cap_usd": 68623196915.608,
-    "sol_24h_volume_usd": 4288010182.174909,
-    "solana_tvl_usd": 6484887055,
-    "solana_tvl_change_24h_pct": -0.76,
+    "sol_price_usd": 117.09,
+    "sol_price_change_24h_pct": 1.86,
+    "sol_market_cap_usd": 68808795097.71526,
+    "sol_24h_volume_usd": 4312642823.960806,
+    "solana_tvl_usd": 6478864222,
+    "solana_tvl_change_24h_pct": -0.85,
     "solana_dex_volume_24h_usd": 2552816117.41,
     "solana_stablecoin_supply_usd": 16406867921.91,
     "median_tx_fee_lamports": null,
