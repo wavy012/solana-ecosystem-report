@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-09-29T01:24:00+00:00",
+  "generated_at_utc": "2026-09-29T07:10:48+00:00",
   "network_performance": {
-    "current_slot": 451492607,
+    "current_slot": 451570436,
     "current_epoch": 1045,
-    "epoch_progress_pct": 12.17,
-    "slot_index_in_epoch": 52576,
+    "epoch_progress_pct": 30.19,
+    "slot_index_in_epoch": 130405,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 4440.39,
-    "max_tps_recent": 4735.1,
-    "avg_slot_time_ms": 267.1,
-    "latest_block_time_unix": 1790645032,
+    "avg_tps_recent": 3816.85,
+    "max_tps_recent": 4058.5,
+    "avg_slot_time_ms": 266.71,
+    "latest_block_time_unix": 1790665839,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -94,14 +94,14 @@
     "zero_commission_validator_count": 229
   },
   "economic_indicators": {
-    "sol_price_usd": 117.12,
-    "sol_price_change_24h_pct": -3.93,
-    "sol_market_cap_usd": 68848066130.39534,
-    "sol_24h_volume_usd": 4016466422.361861,
-    "solana_tvl_usd": 6603906438,
-    "solana_tvl_change_24h_pct": -0.31,
-    "solana_dex_volume_24h_usd": 2222571202.25,
-    "solana_stablecoin_supply_usd": 16702594787.47,
+    "sol_price_usd": null,
+    "sol_price_change_24h_pct": null,
+    "sol_market_cap_usd": null,
+    "sol_24h_volume_usd": null,
+    "solana_tvl_usd": 6441002546,
+    "solana_tvl_change_24h_pct": -2.98,
+    "solana_dex_volume_24h_usd": 2290100033.25,
+    "solana_stablecoin_supply_usd": 16641407810.89,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
   },
@@ -139,7 +139,8 @@
   "source_errors": {
     "demo_address_balance": "RPC error calling getBalance: {'code': -32602, 'message': 'Invalid param: WrongSize'}",
     "demo_address_recent_signatures": "RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}",
-    "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
+    "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}",
+    "sol_price": "HTTP 403 fetching https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true: Forbidden"
   },
   "anomalies": []
 }
