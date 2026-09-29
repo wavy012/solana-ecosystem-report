@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-09-29T14:11:17+00:00",
+  "generated_at_utc": "2026-09-29T19:31:21+00:00",
   "network_performance": {
-    "current_slot": 451664889,
+    "current_slot": 451736463,
     "current_epoch": 1045,
-    "epoch_progress_pct": 52.05,
-    "slot_index_in_epoch": 224858,
+    "epoch_progress_pct": 68.62,
+    "slot_index_in_epoch": 296431,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 4894.46,
-    "max_tps_recent": 5328.72,
-    "avg_slot_time_ms": 269.82,
-    "latest_block_time_unix": 1790691069,
+    "avg_tps_recent": 5068.73,
+    "max_tps_recent": 5770.72,
+    "avg_slot_time_ms": 267.53,
+    "latest_block_time_unix": 1790710272,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 670,
-    "delinquent_validator_count": 12,
-    "delinquency_pct": 1.76,
+    "active_validator_count": 674,
+    "delinquent_validator_count": 9,
+    "delinquency_pct": 1.32,
     "total_active_stake_sol": 441249792.17,
     "top_validators_by_stake": [
       {
@@ -89,18 +89,18 @@
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 12.88,
+    "avg_commission_pct": 12.82,
     "median_commission_pct": 5.0,
-    "zero_commission_validator_count": 226
+    "zero_commission_validator_count": 228
   },
   "economic_indicators": {
     "sol_price_usd": null,
     "sol_price_change_24h_pct": null,
     "sol_market_cap_usd": null,
     "sol_24h_volume_usd": null,
-    "solana_tvl_usd": 6548541763,
-    "solana_tvl_change_24h_pct": -1.36,
-    "solana_dex_volume_24h_usd": 2662015200.25,
+    "solana_tvl_usd": 6493460667,
+    "solana_tvl_change_24h_pct": -2.19,
+    "solana_dex_volume_24h_usd": 2662061803.25,
     "solana_stablecoin_supply_usd": 16641407810.89,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
