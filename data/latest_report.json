@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-09-29T23:21:39+00:00",
+  "generated_at_utc": "2026-09-30T02:14:09+00:00",
   "network_performance": {
-    "current_slot": 451787893,
+    "current_slot": 451826650,
     "current_epoch": 1045,
-    "epoch_progress_pct": 80.52,
-    "slot_index_in_epoch": 347862,
+    "epoch_progress_pct": 89.5,
+    "slot_index_in_epoch": 386619,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 4742.25,
-    "max_tps_recent": 5100.4,
-    "avg_slot_time_ms": 268.82,
-    "latest_block_time_unix": 1790724090,
+    "avg_tps_recent": 4111.84,
+    "max_tps_recent": 4473.05,
+    "avg_slot_time_ms": 267.03,
+    "latest_block_time_unix": 1790734441,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 673,
-    "delinquent_validator_count": 10,
-    "delinquency_pct": 1.46,
+    "active_validator_count": 675,
+    "delinquent_validator_count": 8,
+    "delinquency_pct": 1.17,
     "total_active_stake_sol": 441249792.17,
     "top_validators_by_stake": [
       {
@@ -89,19 +89,19 @@
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 12.83,
+    "avg_commission_pct": 12.8,
     "median_commission_pct": 5,
-    "zero_commission_validator_count": 228
+    "zero_commission_validator_count": 229
   },
   "economic_indicators": {
-    "sol_price_usd": null,
-    "sol_price_change_24h_pct": null,
-    "sol_market_cap_usd": null,
-    "sol_24h_volume_usd": null,
-    "solana_tvl_usd": 6522191777,
-    "solana_tvl_change_24h_pct": -1.76,
-    "solana_dex_volume_24h_usd": 2662061803.25,
-    "solana_stablecoin_supply_usd": 16641407810.89,
+    "sol_price_usd": 119.72,
+    "sol_price_change_24h_pct": 2.43,
+    "sol_market_cap_usd": 70388236206.99992,
+    "sol_24h_volume_usd": 3481270670.5489035,
+    "solana_tvl_usd": 6566724710,
+    "solana_tvl_change_24h_pct": -1.09,
+    "solana_dex_volume_24h_usd": 2660711114.8400006,
+    "solana_stablecoin_supply_usd": 16454350024.990002,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
   },
@@ -139,8 +139,7 @@
   "source_errors": {
     "demo_address_balance": "RPC error calling getBalance: {'code': -32602, 'message': 'Invalid param: WrongSize'}",
     "demo_address_recent_signatures": "RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}",
-    "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}",
-    "sol_price": "HTTP 403 fetching https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true: Forbidden"
+    "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
   },
   "anomalies": []
 }

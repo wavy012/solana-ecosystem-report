@@ -1,5 +1,5 @@
 # Solana Ecosystem Report
-_Generated 2026-09-29T23:21:39+00:00_
+_Generated 2026-09-30T02:14:09+00:00_
 
 ## Anomalies
 
@@ -9,19 +9,19 @@ _Generated 2026-09-29T23:21:39+00:00_
 
 | Metric | Value |
 |---|---|
-| Current slot | 451,787,893 |
+| Current slot | 451,826,650 |
 | Current epoch | 1,045 |
-| Epoch progress | 80.52% |
-| Avg TPS (recent) | 4,742.25 |
-| Max TPS (recent) | 5,100.4 |
-| Avg slot time | 268.82 ms |
+| Epoch progress | 89.5% |
+| Avg TPS (recent) | 4,111.84 |
+| Max TPS (recent) | 4,473.05 |
+| Avg slot time | 267.03 ms |
 | Cluster health | ok |
 
 ## Validator status
 
-- Active validators: **673**
-- Delinquent validators: **10**
-- Delinquency rate: **1.46%**
+- Active validators: **675**
+- Delinquent validators: **8**
+- Delinquency rate: **1.17%**
 - Total active stake: **441,249,792.17 SOL**
 - Median commission: **5%**
 
@@ -44,14 +44,14 @@ _Generated 2026-09-29T23:21:39+00:00_
 
 | Metric | Value |
 |---|---|
-| SOL price | $— |
-| 24h price change | — |
-| Market cap | $— |
-| 24h volume | $— |
-| Solana TVL | $6,522,191,777 |
-| TVL 24h change | -1.76% |
-| DEX volume (24h) | $2,662,061,803.25 |
-| Stablecoin supply | $16,641,407,810.89 |
+| SOL price | $119.72 |
+| 24h price change | 2.43% |
+| Market cap | $70,388,236,206.99992 |
+| 24h volume | $3,481,270,670.5489035 |
+| Solana TVL | $6,566,724,710 |
+| TVL 24h change | -1.09% |
+| DEX volume (24h) | $2,660,711,114.8400006 |
+| Stablecoin supply | $16,454,350,024.990002 |
 | Median tx fee | — |
 | Est. REV / block | $— |
 
@@ -73,7 +73,6 @@ _Generated 2026-09-29T23:21:39+00:00_
 - `demo_address_balance`: RPC error calling getBalance: {'code': -32602, 'message': 'Invalid param: WrongSize'}
 - `demo_address_recent_signatures`: RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}
 - `sample_block`: RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: "maxSupportedTransactionVersion": 1'}
-- `sol_price`: HTTP 403 fetching https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true: Forbidden
 
 ---
 _Generated automatically by the Solana Ecosystem Report pipeline. Data sources: Solana public RPC, DeFiLlama, CoinGecko._
