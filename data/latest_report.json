@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-09-30T15:31:28+00:00",
+  "generated_at_utc": "2026-09-30T20:27:43+00:00",
   "network_performance": {
-    "current_slot": 452005591,
+    "current_slot": 452071886,
     "current_epoch": 1046,
-    "epoch_progress_pct": 30.92,
-    "slot_index_in_epoch": 133560,
+    "epoch_progress_pct": 46.26,
+    "slot_index_in_epoch": 199854,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 4635.5,
-    "max_tps_recent": 5657.42,
-    "avg_slot_time_ms": 267.17,
-    "latest_block_time_unix": 1790782280,
+    "avg_tps_recent": 4997.24,
+    "max_tps_recent": 5809.25,
+    "avg_slot_time_ms": 268.46,
+    "latest_block_time_unix": 1790800054,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 671,
-    "delinquent_validator_count": 12,
-    "delinquency_pct": 1.76,
+    "active_validator_count": 672,
+    "delinquent_validator_count": 11,
+    "delinquency_pct": 1.61,
     "total_active_stake_sol": 440549644.99,
     "top_validators_by_stake": [
       {
@@ -89,18 +89,18 @@
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 12.59,
-    "median_commission_pct": 5,
-    "zero_commission_validator_count": 230
+    "avg_commission_pct": 12.7,
+    "median_commission_pct": 5.0,
+    "zero_commission_validator_count": 229
   },
   "economic_indicators": {
-    "sol_price_usd": 118.37,
-    "sol_price_change_24h_pct": 0.07,
-    "sol_market_cap_usd": 69570138454.44682,
-    "sol_24h_volume_usd": 4152587339.136899,
-    "solana_tvl_usd": 6649655217,
-    "solana_tvl_change_24h_pct": 2.99,
-    "solana_dex_volume_24h_usd": 2534247588.8400006,
+    "sol_price_usd": 118.04,
+    "sol_price_change_24h_pct": -0.94,
+    "sol_market_cap_usd": 69399541084.93806,
+    "sol_24h_volume_usd": 4130935587.5623245,
+    "solana_tvl_usd": 6551693311,
+    "solana_tvl_change_24h_pct": 1.48,
+    "solana_dex_volume_24h_usd": 2534187471.8400006,
     "solana_stablecoin_supply_usd": 16464350939.490002,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
