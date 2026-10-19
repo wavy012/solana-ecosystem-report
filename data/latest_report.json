@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-10-19T01:29:52+00:00",
+  "generated_at_utc": "2026-10-19T06:41:22+00:00",
   "network_performance": {
-    "current_slot": 458650851,
+    "current_slot": 458737116,
     "current_epoch": 1061,
-    "epoch_progress_pct": 69.17,
-    "slot_index_in_epoch": 298820,
+    "epoch_progress_pct": 89.14,
+    "slot_index_in_epoch": 385085,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 5093.11,
-    "max_tps_recent": 5711.8,
-    "avg_slot_time_ms": 217.46,
-    "latest_block_time_unix": 1792373383,
+    "avg_tps_recent": 4605.13,
+    "max_tps_recent": 5722.67,
+    "avg_slot_time_ms": 216.89,
+    "latest_block_time_unix": 1792392073,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 665,
-    "delinquent_validator_count": 15,
-    "delinquency_pct": 2.21,
+    "active_validator_count": 667,
+    "delinquent_validator_count": 13,
+    "delinquency_pct": 1.91,
     "total_active_stake_sol": 437350802.85,
     "top_validators_by_stake": [
       {
@@ -89,19 +89,19 @@
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 13.19,
+    "avg_commission_pct": 13.16,
     "median_commission_pct": 5,
     "zero_commission_validator_count": 228
   },
   "economic_indicators": {
-    "sol_price_usd": 104.61,
-    "sol_price_change_24h_pct": 1.05,
-    "sol_market_cap_usd": 61685562822.48813,
-    "sol_24h_volume_usd": 2350291712.13186,
-    "solana_tvl_usd": 5780010640,
-    "solana_tvl_change_24h_pct": -0.01,
-    "solana_dex_volume_24h_usd": 1564652009.3799996,
-    "solana_stablecoin_supply_usd": 15901992046.779999,
+    "sol_price_usd": 105.75,
+    "sol_price_change_24h_pct": 2.04,
+    "sol_market_cap_usd": 62331014599.13645,
+    "sol_24h_volume_usd": 2544016593.1567287,
+    "solana_tvl_usd": 5873964001,
+    "solana_tvl_change_24h_pct": -0.37,
+    "solana_dex_volume_24h_usd": 1565961174.3799996,
+    "solana_stablecoin_supply_usd": 15843173397.31,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
   },
