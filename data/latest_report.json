@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-10-20T22:00:26+00:00",
+  "generated_at_utc": "2026-10-21T00:43:41+00:00",
   "network_performance": {
-    "current_slot": 459388131,
+    "current_slot": 459433293,
     "current_epoch": 1063,
-    "epoch_progress_pct": 39.84,
-    "slot_index_in_epoch": 172101,
+    "epoch_progress_pct": 50.29,
+    "slot_index_in_epoch": 217262,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 5170.89,
-    "max_tps_recent": 6491.02,
-    "avg_slot_time_ms": 216.88,
-    "latest_block_time_unix": 1792533617,
+    "avg_tps_recent": 5322.02,
+    "max_tps_recent": 5783.18,
+    "avg_slot_time_ms": 216.82,
+    "latest_block_time_unix": 1792543412,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 667,
-    "delinquent_validator_count": 12,
-    "delinquency_pct": 1.77,
+    "active_validator_count": 668,
+    "delinquent_validator_count": 11,
+    "delinquency_pct": 1.62,
     "total_active_stake_sol": 438577211.11,
     "top_validators_by_stake": [
       {
@@ -89,18 +89,18 @@
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 12.73,
-    "median_commission_pct": 5,
-    "zero_commission_validator_count": 229
+    "avg_commission_pct": 13.16,
+    "median_commission_pct": 5.0,
+    "zero_commission_validator_count": 227
   },
   "economic_indicators": {
-    "sol_price_usd": 106.68,
-    "sol_price_change_24h_pct": 1.98,
-    "sol_market_cap_usd": 62879159227.915115,
-    "sol_24h_volume_usd": 2649639342.868281,
-    "solana_tvl_usd": 5943701567,
-    "solana_tvl_change_24h_pct": 1.58,
-    "solana_dex_volume_24h_usd": 1823579289.83,
+    "sol_price_usd": 106.75,
+    "sol_price_change_24h_pct": 1.92,
+    "sol_market_cap_usd": 62935662830.53602,
+    "sol_24h_volume_usd": 2687138689.610238,
+    "solana_tvl_usd": 5971948120,
+    "solana_tvl_change_24h_pct": 2.06,
+    "solana_dex_volume_24h_usd": 2206727560.98,
     "solana_stablecoin_supply_usd": 15915085718.82,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
