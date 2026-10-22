@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-10-22T06:58:30+00:00",
+  "generated_at_utc": "2026-10-22T12:50:35+00:00",
   "network_performance": {
-    "current_slot": 459941990,
+    "current_slot": 460041587,
     "current_epoch": 1064,
-    "epoch_progress_pct": 68.05,
-    "slot_index_in_epoch": 293990,
+    "epoch_progress_pct": 91.11,
+    "slot_index_in_epoch": 393588,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1542.61,
-    "max_tps_recent": 1861.02,
-    "avg_slot_time_ms": 211.8,
-    "latest_block_time_unix": 1792652304,
+    "avg_tps_recent": 1649.21,
+    "max_tps_recent": 2135.37,
+    "avg_slot_time_ms": 212.32,
+    "latest_block_time_unix": 1792673426,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 668,
-    "delinquent_validator_count": 9,
-    "delinquency_pct": 1.33,
+    "active_validator_count": 667,
+    "delinquent_validator_count": 10,
+    "delinquency_pct": 1.48,
     "total_active_stake_sol": 438868046.05,
     "top_validators_by_stake": [
       {
@@ -89,18 +89,18 @@
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 13.16,
-    "median_commission_pct": 5.0,
+    "avg_commission_pct": 13.03,
+    "median_commission_pct": 5,
     "zero_commission_validator_count": 227
   },
   "economic_indicators": {
-    "sol_price_usd": 104.57,
-    "sol_price_change_24h_pct": -1.27,
-    "sol_market_cap_usd": 61649624718.09772,
-    "sol_24h_volume_usd": 2817654855.0337543,
-    "solana_tvl_usd": 5937180221,
-    "solana_tvl_change_24h_pct": -0.48,
-    "solana_dex_volume_24h_usd": 2278262309.37,
+    "sol_price_usd": 104.44,
+    "sol_price_change_24h_pct": -2.22,
+    "sol_market_cap_usd": 61575252421.036026,
+    "sol_24h_volume_usd": 2875954508.597901,
+    "solana_tvl_usd": 5886470902,
+    "solana_tvl_change_24h_pct": -1.33,
+    "solana_dex_volume_24h_usd": 2270402206.37,
     "solana_stablecoin_supply_usd": 16160439832.710001,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
@@ -145,10 +145,10 @@
     {
       "metric": "avg_tps_recent",
       "severity": "critical",
-      "message": "TPS drop: 1542.61 vs rolling baseline 4536.41 (-66.0%).",
-      "value": 1542.61,
-      "baseline": 4536.41,
-      "deviation_pct": -66.0
+      "message": "TPS drop: 1649.21 vs rolling baseline 4367.93 (-62.2%).",
+      "value": 1649.21,
+      "baseline": 4367.93,
+      "deviation_pct": -62.2
     }
   ]
 }
