@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-10-22T01:43:10+00:00",
+  "generated_at_utc": "2026-10-22T06:58:30+00:00",
   "network_performance": {
-    "current_slot": 459852859,
+    "current_slot": 459941990,
     "current_epoch": 1064,
-    "epoch_progress_pct": 47.42,
-    "slot_index_in_epoch": 204859,
+    "epoch_progress_pct": 68.05,
+    "slot_index_in_epoch": 293990,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1887.05,
-    "max_tps_recent": 2717.63,
-    "avg_slot_time_ms": 212.81,
-    "latest_block_time_unix": 1792633381,
+    "avg_tps_recent": 1542.61,
+    "max_tps_recent": 1861.02,
+    "avg_slot_time_ms": 211.8,
+    "latest_block_time_unix": 1792652304,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -89,18 +89,18 @@
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 12.87,
+    "avg_commission_pct": 13.16,
     "median_commission_pct": 5.0,
-    "zero_commission_validator_count": 229
+    "zero_commission_validator_count": 227
   },
   "economic_indicators": {
-    "sol_price_usd": 106.26,
-    "sol_price_change_24h_pct": -0.14,
-    "sol_market_cap_usd": 62697437301.34086,
-    "sol_24h_volume_usd": 2514192475.1041164,
-    "solana_tvl_usd": 6004623762,
-    "solana_tvl_change_24h_pct": 0.03,
-    "solana_dex_volume_24h_usd": 2278677835.37,
+    "sol_price_usd": 104.57,
+    "sol_price_change_24h_pct": -1.27,
+    "sol_market_cap_usd": 61649624718.09772,
+    "sol_24h_volume_usd": 2817654855.0337543,
+    "solana_tvl_usd": 5937180221,
+    "solana_tvl_change_24h_pct": -0.48,
+    "solana_dex_volume_24h_usd": 2278262309.37,
     "solana_stablecoin_supply_usd": 16160439832.710001,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
@@ -144,11 +144,11 @@
   "anomalies": [
     {
       "metric": "avg_tps_recent",
-      "severity": "warning",
-      "message": "TPS drop: 1887.05 vs rolling baseline 4700.78 (-59.9%).",
-      "value": 1887.05,
-      "baseline": 4700.78,
-      "deviation_pct": -59.9
+      "severity": "critical",
+      "message": "TPS drop: 1542.61 vs rolling baseline 4536.41 (-66.0%).",
+      "value": 1542.61,
+      "baseline": 4536.41,
+      "deviation_pct": -66.0
     }
   ]
 }
