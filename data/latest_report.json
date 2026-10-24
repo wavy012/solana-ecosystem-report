@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-10-24T13:47:18+00:00",
+  "generated_at_utc": "2026-10-24T17:08:53+00:00",
   "network_performance": {
-    "current_slot": 460872616,
+    "current_slot": 460929586,
     "current_epoch": 1066,
-    "epoch_progress_pct": 83.48,
-    "slot_index_in_epoch": 360617,
+    "epoch_progress_pct": 96.66,
+    "slot_index_in_epoch": 417586,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1419.12,
-    "max_tps_recent": 1824.83,
-    "avg_slot_time_ms": 211.87,
-    "latest_block_time_unix": 1792849631,
+    "avg_tps_recent": 1835.0,
+    "max_tps_recent": 2990.2,
+    "avg_slot_time_ms": 212.24,
+    "latest_block_time_unix": 1792861726,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -94,12 +94,12 @@
     "zero_commission_validator_count": 225
   },
   "economic_indicators": {
-    "sol_price_usd": 101.32,
-    "sol_price_change_24h_pct": -3.28,
-    "sol_market_cap_usd": 59746596759.84634,
-    "sol_24h_volume_usd": 2178176735.41791,
-    "solana_tvl_usd": 5737829201,
-    "solana_tvl_change_24h_pct": -2.11,
+    "sol_price_usd": 100.32,
+    "sol_price_change_24h_pct": -4.03,
+    "sol_market_cap_usd": 59153734454.01829,
+    "sol_24h_volume_usd": 2564665852.2851267,
+    "solana_tvl_usd": 5683542687,
+    "solana_tvl_change_24h_pct": -3.03,
     "solana_dex_volume_24h_usd": 1997070440.3700001,
     "solana_stablecoin_supply_usd": 15929984083.619999,
     "median_tx_fee_lamports": null,
@@ -141,14 +141,5 @@
     "demo_address_recent_signatures": "RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}",
     "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
   },
-  "anomalies": [
-    {
-      "metric": "avg_tps_recent",
-      "severity": "warning",
-      "message": "TPS drop: 1419.12 vs rolling baseline 2441.05 (-41.9%).",
-      "value": 1419.12,
-      "baseline": 2441.05,
-      "deviation_pct": -41.9
-    }
-  ]
+  "anomalies": []
 }
