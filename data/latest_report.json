@@ -1,105 +1,105 @@
 {
-  "generated_at_utc": "2026-10-28T20:25:58+00:00",
+  "generated_at_utc": "2026-10-29T00:09:58+00:00",
   "network_performance": {
-    "current_slot": 462610710,
-    "current_epoch": 1070,
-    "epoch_progress_pct": 85.81,
-    "slot_index_in_epoch": 370710,
+    "current_slot": 462673645,
+    "current_epoch": 1071,
+    "epoch_progress_pct": 0.38,
+    "slot_index_in_epoch": 1646,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 2617.55,
-    "max_tps_recent": 4103.0,
-    "avg_slot_time_ms": 214.4,
-    "latest_block_time_unix": 1793219149,
+    "avg_tps_recent": 1540.25,
+    "max_tps_recent": 2010.17,
+    "avg_slot_time_ms": 213.09,
+    "latest_block_time_unix": 1793232590,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 661,
-    "delinquent_validator_count": 30,
-    "delinquency_pct": 4.34,
-    "total_active_stake_sol": 437290026.34,
+    "active_validator_count": 664,
+    "delinquent_validator_count": 25,
+    "delinquency_pct": 3.63,
+    "total_active_stake_sol": 436776187.41,
     "top_validators_by_stake": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
         "node_pubkey": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "activated_stake_sol": 17006421.92,
-        "stake_share_pct": 3.889,
+        "activated_stake_sol": 17028574.24,
+        "stake_share_pct": 3.899,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
         "node_pubkey": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "activated_stake_sol": 16661096.44,
-        "stake_share_pct": 3.81,
+        "activated_stake_sol": 16665444.38,
+        "stake_share_pct": 3.816,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
         "node_pubkey": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        "activated_stake_sol": 12791931.11,
-        "stake_share_pct": 2.925,
+        "activated_stake_sol": 12878826.06,
+        "stake_share_pct": 2.949,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
         "node_pubkey": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-        "activated_stake_sol": 10815143.08,
-        "stake_share_pct": 2.473,
+        "activated_stake_sol": 10762072.57,
+        "stake_share_pct": 2.464,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
         "node_pubkey": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
-        "activated_stake_sol": 9718548.06,
+        "activated_stake_sol": 9705355.84,
         "stake_share_pct": 2.222,
         "commission_pct": 5
       },
       {
         "vote_pubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
         "node_pubkey": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
-        "activated_stake_sol": 9464442.57,
-        "stake_share_pct": 2.164,
+        "activated_stake_sol": 9466645.88,
+        "stake_share_pct": 2.167,
         "commission_pct": 10
       },
       {
         "vote_pubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
         "node_pubkey": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "activated_stake_sol": 9208877.3,
-        "stake_share_pct": 2.106,
+        "activated_stake_sol": 9218109.83,
+        "stake_share_pct": 2.11,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
         "node_pubkey": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "activated_stake_sol": 7757994.43,
-        "stake_share_pct": 1.774,
+        "activated_stake_sol": 7761554.6,
+        "stake_share_pct": 1.777,
         "commission_pct": 7
-      },
-      {
-        "vote_pubkey": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-        "node_pubkey": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "activated_stake_sol": 7041145.74,
-        "stake_share_pct": 1.61,
-        "commission_pct": 5
       },
       {
         "vote_pubkey": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
         "node_pubkey": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "activated_stake_sol": 6997044.02,
-        "stake_share_pct": 1.6,
+        "activated_stake_sol": 6998037.17,
+        "stake_share_pct": 1.602,
         "commission_pct": 0
+      },
+      {
+        "vote_pubkey": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
+        "node_pubkey": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+        "activated_stake_sol": 6646427.91,
+        "stake_share_pct": 1.522,
+        "commission_pct": 5
       }
     ],
-    "avg_commission_pct": 12.97,
-    "median_commission_pct": 5,
-    "zero_commission_validator_count": 227
+    "avg_commission_pct": 12.63,
+    "median_commission_pct": 5.0,
+    "zero_commission_validator_count": 229
   },
   "economic_indicators": {
     "sol_price_usd": 102.34,
-    "sol_price_change_24h_pct": 1.3,
-    "sol_market_cap_usd": 60372281925.8136,
-    "sol_24h_volume_usd": 2618036492.8504467,
-    "solana_tvl_usd": 5699140778,
-    "solana_tvl_change_24h_pct": 0.88,
+    "sol_price_change_24h_pct": 1.21,
+    "sol_market_cap_usd": 60381563127.23845,
+    "sol_24h_volume_usd": 2689211699.9725285,
+    "solana_tvl_usd": 5728970399,
+    "solana_tvl_change_24h_pct": 1.4,
     "solana_dex_volume_24h_usd": 1582952703.6299996,
     "solana_stablecoin_supply_usd": 15791603551.359999,
     "median_tx_fee_lamports": null,
@@ -141,14 +141,5 @@
     "demo_address_recent_signatures": "RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}",
     "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
   },
-  "anomalies": [
-    {
-      "metric": "avg_tps_recent",
-      "severity": "warning",
-      "message": "TPS spike: 2617.55 vs rolling baseline 1708.67 (53.2%).",
-      "value": 2617.55,
-      "baseline": 1708.67,
-      "deviation_pct": 53.2
-    }
-  ]
+  "anomalies": []
 }
