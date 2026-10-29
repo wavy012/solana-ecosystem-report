@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-10-29T00:09:58+00:00",
+  "generated_at_utc": "2026-10-29T06:08:34+00:00",
   "network_performance": {
-    "current_slot": 462673645,
+    "current_slot": 462774270,
     "current_epoch": 1071,
-    "epoch_progress_pct": 0.38,
-    "slot_index_in_epoch": 1646,
+    "epoch_progress_pct": 23.67,
+    "slot_index_in_epoch": 102271,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1540.25,
-    "max_tps_recent": 2010.17,
-    "avg_slot_time_ms": 213.09,
-    "latest_block_time_unix": 1793232590,
+    "avg_tps_recent": 1249.17,
+    "max_tps_recent": 2051.88,
+    "avg_slot_time_ms": 213.64,
+    "latest_block_time_unix": 1793254105,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 664,
-    "delinquent_validator_count": 25,
-    "delinquency_pct": 3.63,
+    "active_validator_count": 666,
+    "delinquent_validator_count": 23,
+    "delinquency_pct": 3.34,
     "total_active_stake_sol": 436776187.41,
     "top_validators_by_stake": [
       {
@@ -89,19 +89,19 @@
         "commission_pct": 5
       }
     ],
-    "avg_commission_pct": 12.63,
+    "avg_commission_pct": 12.6,
     "median_commission_pct": 5.0,
-    "zero_commission_validator_count": 229
+    "zero_commission_validator_count": 230
   },
   "economic_indicators": {
-    "sol_price_usd": 102.34,
-    "sol_price_change_24h_pct": 1.21,
-    "sol_market_cap_usd": 60381563127.23845,
-    "sol_24h_volume_usd": 2689211699.9725285,
-    "solana_tvl_usd": 5728970399,
-    "solana_tvl_change_24h_pct": 1.4,
-    "solana_dex_volume_24h_usd": 1582952703.6299996,
-    "solana_stablecoin_supply_usd": 15791603551.359999,
+    "sol_price_usd": 100.29,
+    "sol_price_change_24h_pct": -1.49,
+    "sol_market_cap_usd": 59189558681.4493,
+    "sol_24h_volume_usd": 2936303349.705043,
+    "solana_tvl_usd": 5640499198,
+    "solana_tvl_change_24h_pct": -0.93,
+    "solana_dex_volume_24h_usd": 1624512203.0600002,
+    "solana_stablecoin_supply_usd": 15698622067.6,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
   },
