@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-10-30T02:48:38+00:00",
+  "generated_at_utc": "2026-10-30T09:27:27+00:00",
   "network_performance": {
-    "current_slot": 463122172,
+    "current_slot": 463234256,
     "current_epoch": 1072,
-    "epoch_progress_pct": 4.21,
-    "slot_index_in_epoch": 18172,
+    "epoch_progress_pct": 30.15,
+    "slot_index_in_epoch": 130257,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1849.02,
-    "max_tps_recent": 2239.17,
-    "avg_slot_time_ms": 214.21,
-    "latest_block_time_unix": 1793328508,
+    "avg_tps_recent": 1222.6,
+    "max_tps_recent": 1655.55,
+    "avg_slot_time_ms": 213.14,
+    "latest_block_time_unix": 1793352437,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 666,
-    "delinquent_validator_count": 25,
-    "delinquency_pct": 3.62,
+    "active_validator_count": 665,
+    "delinquent_validator_count": 26,
+    "delinquency_pct": 3.76,
     "total_active_stake_sol": 435357093.15,
     "top_validators_by_stake": [
       {
@@ -89,17 +89,17 @@
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 12.75,
-    "median_commission_pct": 5.0,
-    "zero_commission_validator_count": 229
+    "avg_commission_pct": 12.77,
+    "median_commission_pct": 5,
+    "zero_commission_validator_count": 228
   },
   "economic_indicators": {
-    "sol_price_usd": 95.17,
-    "sol_price_change_24h_pct": -4.42,
-    "sol_market_cap_usd": 56137340429.8734,
-    "sol_24h_volume_usd": 5267763942.954862,
-    "solana_tvl_usd": 5354098163,
-    "solana_tvl_change_24h_pct": -4.2,
+    "sol_price_usd": 96.89,
+    "sol_price_change_24h_pct": -3.36,
+    "sol_market_cap_usd": 57140276416.63431,
+    "sol_24h_volume_usd": 5827160054.197814,
+    "solana_tvl_usd": 5415049783,
+    "solana_tvl_change_24h_pct": -4.91,
     "solana_dex_volume_24h_usd": 1924354203.6999998,
     "solana_stablecoin_supply_usd": 15459786777.66,
     "median_tx_fee_lamports": null,
@@ -141,5 +141,14 @@
     "demo_address_recent_signatures": "RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}",
     "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "avg_tps_recent",
+      "severity": "warning",
+      "message": "TPS drop: 1222.6 vs rolling baseline 1813.18 (-32.6%).",
+      "value": 1222.6,
+      "baseline": 1813.18,
+      "deviation_pct": -32.6
+    }
+  ]
 }
