@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-11-02T07:12:40+00:00",
+  "generated_at_utc": "2026-11-02T17:18:07+00:00",
   "network_performance": {
-    "current_slot": 464406836,
+    "current_slot": 464576261,
     "current_epoch": 1075,
-    "epoch_progress_pct": 1.58,
-    "slot_index_in_epoch": 6837,
+    "epoch_progress_pct": 40.8,
+    "slot_index_in_epoch": 176262,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1158.69,
-    "max_tps_recent": 1412.35,
-    "avg_slot_time_ms": 214.19,
-    "latest_block_time_unix": 1793603550,
+    "avg_tps_recent": 2366.58,
+    "max_tps_recent": 3519.12,
+    "avg_slot_time_ms": 214.82,
+    "latest_block_time_unix": 1793639877,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 666,
-    "delinquent_validator_count": 28,
-    "delinquency_pct": 4.03,
+    "active_validator_count": 665,
+    "delinquent_validator_count": 29,
+    "delinquency_pct": 4.18,
     "total_active_stake_sol": 434161055.03,
     "top_validators_by_stake": [
       {
@@ -48,7 +48,7 @@
       },
       {
         "vote_pubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-        "node_pubkey": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+        "node_pubkey": "JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr",
         "activated_stake_sol": 9580109.23,
         "stake_share_pct": 2.207,
         "commission_pct": 5
@@ -89,18 +89,18 @@
         "commission_pct": 5
       }
     ],
-    "avg_commission_pct": 12.8,
-    "median_commission_pct": 5.0,
-    "zero_commission_validator_count": 225
+    "avg_commission_pct": 12.51,
+    "median_commission_pct": 5,
+    "zero_commission_validator_count": 226
   },
   "economic_indicators": {
-    "sol_price_usd": 94.34,
-    "sol_price_change_24h_pct": -1.21,
-    "sol_market_cap_usd": 55671921920.7202,
-    "sol_24h_volume_usd": 1984687163.0122383,
-    "solana_tvl_usd": 5471890410,
-    "solana_tvl_change_24h_pct": 1.23,
-    "solana_dex_volume_24h_usd": 832668230.19,
+    "sol_price_usd": 93.23,
+    "sol_price_change_24h_pct": -1.5,
+    "sol_market_cap_usd": 55040667586.57566,
+    "sol_24h_volume_usd": 2242166411.6030455,
+    "solana_tvl_usd": 5434029726,
+    "solana_tvl_change_24h_pct": 0.53,
+    "solana_dex_volume_24h_usd": 905602298.19,
     "solana_stablecoin_supply_usd": 15451073599.0,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
@@ -141,5 +141,14 @@
     "demo_address_recent_signatures": "RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}",
     "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "avg_tps_recent",
+      "severity": "warning",
+      "message": "TPS spike: 2366.58 vs rolling baseline 1575.38 (50.2%).",
+      "value": 2366.58,
+      "baseline": 1575.38,
+      "deviation_pct": 50.2
+    }
+  ]
 }
