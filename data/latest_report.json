@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-11-04T15:37:33+00:00",
+  "generated_at_utc": "2026-11-04T21:40:22+00:00",
   "network_performance": {
-    "current_slot": 465354809,
+    "current_slot": 465455981,
     "current_epoch": 1077,
-    "epoch_progress_pct": 21.02,
-    "slot_index_in_epoch": 90810,
+    "epoch_progress_pct": 44.44,
+    "slot_index_in_epoch": 191981,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 3485.05,
-    "max_tps_recent": 4278.27,
-    "avg_slot_time_ms": 214.56,
-    "latest_block_time_unix": 1793806642,
+    "avg_tps_recent": 2382.15,
+    "max_tps_recent": 3543.7,
+    "avg_slot_time_ms": 215.21,
+    "latest_block_time_unix": 1793828412,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -55,7 +55,7 @@
       },
       {
         "vote_pubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-        "node_pubkey": "2fBQ7AyQsgpQkJAAzwVLVu1we2tDV4C8g2mgi2kLFnAq",
+        "node_pubkey": "7jtWrBuj9k2E5RnoHGWSBosBwqwjZMvEnhe9qGLJdhT4",
         "activated_stake_sol": 9439186.26,
         "stake_share_pct": 2.18,
         "commission_pct": 10
@@ -94,12 +94,12 @@
     "zero_commission_validator_count": 225
   },
   "economic_indicators": {
-    "sol_price_usd": 96.67,
-    "sol_price_change_24h_pct": 3.76,
-    "sol_market_cap_usd": 57068349511.00213,
-    "sol_24h_volume_usd": 3377839733.0395155,
-    "solana_tvl_usd": 5427902140,
-    "solana_tvl_change_24h_pct": 0.52,
+    "sol_price_usd": 94.63,
+    "sol_price_change_24h_pct": 1.01,
+    "sol_market_cap_usd": 55866874407.2911,
+    "sol_24h_volume_usd": 3902197691.2130804,
+    "solana_tvl_usd": 5504130244,
+    "solana_tvl_change_24h_pct": 1.93,
     "solana_dex_volume_24h_usd": 1881110224.9,
     "solana_stablecoin_supply_usd": 15050364888.109999,
     "median_tx_fee_lamports": null,
@@ -144,11 +144,11 @@
   "anomalies": [
     {
       "metric": "avg_tps_recent",
-      "severity": "critical",
-      "message": "TPS spike: 3485.05 vs rolling baseline 1581.22 (120.4%).",
-      "value": 3485.05,
-      "baseline": 1581.22,
-      "deviation_pct": 120.4
+      "severity": "warning",
+      "message": "TPS spike: 2382.15 vs rolling baseline 1672.82 (42.4%).",
+      "value": 2382.15,
+      "baseline": 1672.82,
+      "deviation_pct": 42.4
     }
   ]
 }
