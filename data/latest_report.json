@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-11-03T20:13:50+00:00",
+  "generated_at_utc": "2026-11-04T00:44:52+00:00",
   "network_performance": {
-    "current_slot": 465029010,
+    "current_slot": 465104842,
     "current_epoch": 1076,
-    "epoch_progress_pct": 45.6,
-    "slot_index_in_epoch": 197012,
+    "epoch_progress_pct": 63.16,
+    "slot_index_in_epoch": 272842,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 2442.22,
-    "max_tps_recent": 3266.42,
-    "avg_slot_time_ms": 214.17,
-    "latest_block_time_unix": 1793736821,
+    "avg_tps_recent": 2368.21,
+    "max_tps_recent": 2785.32,
+    "avg_slot_time_ms": 214.14,
+    "latest_block_time_unix": 1793753084,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -89,18 +89,18 @@
         "commission_pct": 5
       }
     ],
-    "avg_commission_pct": 12.64,
+    "avg_commission_pct": 12.79,
     "median_commission_pct": 5.0,
-    "zero_commission_validator_count": 226
+    "zero_commission_validator_count": 225
   },
   "economic_indicators": {
-    "sol_price_usd": 93.22,
-    "sol_price_change_24h_pct": 1.82,
-    "sol_market_cap_usd": 55023710145.4222,
-    "sol_24h_volume_usd": 2039456030.4481225,
-    "solana_tvl_usd": 5432079194,
-    "solana_tvl_change_24h_pct": -0.48,
-    "solana_dex_volume_24h_usd": 1852604853.5,
+    "sol_price_usd": 91.77,
+    "sol_price_change_24h_pct": -0.59,
+    "sol_market_cap_usd": 54177572842.369484,
+    "sol_24h_volume_usd": 2059997809.3517337,
+    "solana_tvl_usd": 5446096870,
+    "solana_tvl_change_24h_pct": -0.22,
+    "solana_dex_volume_24h_usd": 1809611297.5,
     "solana_stablecoin_supply_usd": 15525004037.93,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
@@ -145,10 +145,10 @@
     {
       "metric": "avg_tps_recent",
       "severity": "warning",
-      "message": "TPS spike: 2442.22 vs rolling baseline 1539.96 (58.6%).",
-      "value": 2442.22,
-      "baseline": 1539.96,
-      "deviation_pct": 58.6
+      "message": "TPS spike: 2368.21 vs rolling baseline 1569.62 (50.9%).",
+      "value": 2368.21,
+      "baseline": 1569.62,
+      "deviation_pct": 50.9
     }
   ]
 }
