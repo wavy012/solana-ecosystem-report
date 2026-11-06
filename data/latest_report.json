@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-11-06T18:11:06+00:00",
+  "generated_at_utc": "2026-11-06T23:21:54+00:00",
   "network_performance": {
-    "current_slot": 466205287,
+    "current_slot": 466292074,
     "current_epoch": 1079,
-    "epoch_progress_pct": 17.89,
-    "slot_index_in_epoch": 77287,
+    "epoch_progress_pct": 37.98,
+    "slot_index_in_epoch": 164076,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 2217.05,
-    "max_tps_recent": 3572.15,
-    "avg_slot_time_ms": 214.54,
-    "latest_block_time_unix": 1793988656,
+    "avg_tps_recent": 1795.5,
+    "max_tps_recent": 2340.88,
+    "avg_slot_time_ms": 214.51,
+    "latest_block_time_unix": 1794007306,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 658,
-    "delinquent_validator_count": 38,
-    "delinquency_pct": 5.46,
+    "active_validator_count": 659,
+    "delinquent_validator_count": 37,
+    "delinquency_pct": 5.32,
     "total_active_stake_sol": 434917723.21,
     "top_validators_by_stake": [
       {
@@ -90,16 +90,16 @@
       }
     ],
     "avg_commission_pct": 12.74,
-    "median_commission_pct": 5.0,
-    "zero_commission_validator_count": 224
+    "median_commission_pct": 5,
+    "zero_commission_validator_count": 223
   },
   "economic_indicators": {
-    "sol_price_usd": 90.03,
-    "sol_price_change_24h_pct": 1.23,
-    "sol_market_cap_usd": 53156785325.62102,
-    "sol_24h_volume_usd": 2829660426.957256,
-    "solana_tvl_usd": 5284877008,
-    "solana_tvl_change_24h_pct": -4.5,
+    "sol_price_usd": 89.94,
+    "sol_price_change_24h_pct": 1.61,
+    "sol_market_cap_usd": 53080419500.15528,
+    "sol_24h_volume_usd": 2465550010.1804795,
+    "solana_tvl_usd": 5219815220,
+    "solana_tvl_change_24h_pct": -5.67,
     "solana_dex_volume_24h_usd": 2198364299.2,
     "solana_stablecoin_supply_usd": 15180532675.24,
     "median_tx_fee_lamports": null,
@@ -145,8 +145,8 @@
     {
       "metric": "delinquency_pct",
       "severity": "warning",
-      "message": "Validator delinquency at 5.46% (>= 5% threshold).",
-      "value": 5.46,
+      "message": "Validator delinquency at 5.32% (>= 5% threshold).",
+      "value": 5.32,
       "threshold": 5
     }
   ]
