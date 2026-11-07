@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-11-06T23:21:54+00:00",
+  "generated_at_utc": "2026-11-07T02:59:02+00:00",
   "network_performance": {
-    "current_slot": 466292074,
+    "current_slot": 466352812,
     "current_epoch": 1079,
-    "epoch_progress_pct": 37.98,
-    "slot_index_in_epoch": 164076,
+    "epoch_progress_pct": 52.04,
+    "slot_index_in_epoch": 224813,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1795.5,
-    "max_tps_recent": 2340.88,
-    "avg_slot_time_ms": 214.51,
-    "latest_block_time_unix": 1794007306,
+    "avg_tps_recent": 1344.7,
+    "max_tps_recent": 1645.08,
+    "avg_slot_time_ms": 214.18,
+    "latest_block_time_unix": 1794020334,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 659,
-    "delinquent_validator_count": 37,
-    "delinquency_pct": 5.32,
+    "active_validator_count": 658,
+    "delinquent_validator_count": 38,
+    "delinquency_pct": 5.46,
     "total_active_stake_sol": 434917723.21,
     "top_validators_by_stake": [
       {
@@ -89,19 +89,19 @@
         "commission_pct": 0
       }
     ],
-    "avg_commission_pct": 12.74,
-    "median_commission_pct": 5,
-    "zero_commission_validator_count": 223
+    "avg_commission_pct": 12.77,
+    "median_commission_pct": 5.0,
+    "zero_commission_validator_count": 221
   },
   "economic_indicators": {
-    "sol_price_usd": 89.94,
-    "sol_price_change_24h_pct": 1.61,
-    "sol_market_cap_usd": 53080419500.15528,
-    "sol_24h_volume_usd": 2465550010.1804795,
-    "solana_tvl_usd": 5219815220,
-    "solana_tvl_change_24h_pct": -5.67,
-    "solana_dex_volume_24h_usd": 2198364299.2,
-    "solana_stablecoin_supply_usd": 15180532675.24,
+    "sol_price_usd": 90.3,
+    "sol_price_change_24h_pct": 0.04,
+    "sol_market_cap_usd": 53357938866.1085,
+    "sol_24h_volume_usd": 2198863656.869958,
+    "solana_tvl_usd": 5226761814,
+    "solana_tvl_change_24h_pct": -1.03,
+    "solana_dex_volume_24h_usd": 1855731414.85,
+    "solana_stablecoin_supply_usd": 14987682800.720001,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
   },
@@ -145,8 +145,8 @@
     {
       "metric": "delinquency_pct",
       "severity": "warning",
-      "message": "Validator delinquency at 5.32% (>= 5% threshold).",
-      "value": 5.32,
+      "message": "Validator delinquency at 5.46% (>= 5% threshold).",
+      "value": 5.46,
       "threshold": 5
     }
   ]
