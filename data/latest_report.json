@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-11-07T02:59:02+00:00",
+  "generated_at_utc": "2026-11-07T09:47:37+00:00",
   "network_performance": {
-    "current_slot": 466352812,
+    "current_slot": 466467313,
     "current_epoch": 1079,
-    "epoch_progress_pct": 52.04,
-    "slot_index_in_epoch": 224813,
+    "epoch_progress_pct": 78.54,
+    "slot_index_in_epoch": 339314,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1344.7,
-    "max_tps_recent": 1645.08,
-    "avg_slot_time_ms": 214.18,
-    "latest_block_time_unix": 1794020334,
+    "avg_tps_recent": 1070.39,
+    "max_tps_recent": 1403.52,
+    "avg_slot_time_ms": 213.39,
+    "latest_block_time_unix": 1794044850,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -94,14 +94,14 @@
     "zero_commission_validator_count": 221
   },
   "economic_indicators": {
-    "sol_price_usd": 90.3,
-    "sol_price_change_24h_pct": 0.04,
-    "sol_market_cap_usd": 53357938866.1085,
-    "sol_24h_volume_usd": 2198863656.869958,
-    "solana_tvl_usd": 5226761814,
-    "solana_tvl_change_24h_pct": -1.03,
-    "solana_dex_volume_24h_usd": 1855731414.85,
-    "solana_stablecoin_supply_usd": 14987682800.720001,
+    "sol_price_usd": 90.01,
+    "sol_price_change_24h_pct": -0.13,
+    "sol_market_cap_usd": 53196186278.62754,
+    "sol_24h_volume_usd": 1812321757.7183373,
+    "solana_tvl_usd": 5221133013,
+    "solana_tvl_change_24h_pct": -0.74,
+    "solana_dex_volume_24h_usd": 1855725891.85,
+    "solana_stablecoin_supply_usd": 15083123760.26,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
   },
@@ -142,6 +142,14 @@
     "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
   },
   "anomalies": [
+    {
+      "metric": "avg_tps_recent",
+      "severity": "warning",
+      "message": "TPS drop: 1070.39 vs rolling baseline 1847.34 (-42.1%).",
+      "value": 1070.39,
+      "baseline": 1847.34,
+      "deviation_pct": -42.1
+    },
     {
       "metric": "delinquency_pct",
       "severity": "warning",
