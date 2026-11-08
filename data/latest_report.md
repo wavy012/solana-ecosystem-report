@@ -1,55 +1,55 @@
 # Solana Ecosystem Report
-_Generated 2026-11-08T16:57:50+00:00_
+_Generated 2026-11-08T20:58:06+00:00_
 
 ## Anomalies
 
-- No metric breached its threshold this run.
+- **[WARNING]** Validator delinquency at 5.16% (>= 5% threshold).
 
 ## Network performance
 
 | Metric | Value |
 |---|---|
-| Current slot | 466,990,402 |
-| Current epoch | 1,080 |
-| Epoch progress | 99.63% |
-| Avg TPS (recent) | 1,445.38 |
-| Max TPS (recent) | 1,828.83 |
-| Avg slot time | 213.91 ms |
+| Current slot | 467,057,471 |
+| Current epoch | 1,081 |
+| Epoch progress | 15.16% |
+| Avg TPS (recent) | 1,795.92 |
+| Max TPS (recent) | 2,391.47 |
+| Avg slot time | 214.89 ms |
 | Cluster health | ok |
 
 ## Validator status
 
-- Active validators: **663**
-- Delinquent validators: **34**
-- Delinquency rate: **4.88%**
-- Total active stake: **434,780,964.77 SOL**
+- Active validators: **661**
+- Delinquent validators: **36**
+- Delinquency rate: **5.16%**
+- Total active stake: **433,920,560.63 SOL**
 - Median commission: **5%**
 
 ### Top validators by stake
 
 | # | Vote account | Stake (SOL) | Share | Commission |
 |---|---|---|---|---|
-| 1 | `CcaHc2L4…` | 17,043,402.15 | 3.92% | 7% |
-| 2 | `he1iusun…` | 16,729,015.58 | 3.848% | 0% |
-| 3 | `3N7s9zXM…` | 13,015,290.67 | 2.994% | 0% |
-| 4 | `8GbwASqd…` | 10,277,562.55 | 2.364% | 0% |
-| 5 | `CatzoSMU…` | 9,558,411.28 | 2.198% | 5% |
-| 6 | `51JBzSTU…` | 9,520,069.59 | 2.19% | 10% |
-| 7 | `26pV97Ce…` | 9,242,930.18 | 2.126% | 7% |
-| 8 | `9QU2QSxh…` | 7,750,589.2 | 1.783% | 7% |
-| 9 | `CvSb7wdQ…` | 6,983,623.27 | 1.606% | 5% |
-| 10 | `DumiCKHV…` | 6,973,337.25 | 1.604% | 0% |
+| 1 | `CcaHc2L4…` | 17,050,552.56 | 3.929% | 7% |
+| 2 | `he1iusun…` | 16,720,131.04 | 3.853% | 0% |
+| 3 | `3N7s9zXM…` | 13,021,912.46 | 3.001% | 0% |
+| 4 | `8GbwASqd…` | 10,279,070.04 | 2.369% | 0% |
+| 5 | `CatzoSMU…` | 9,553,388.11 | 2.202% | 5% |
+| 6 | `51JBzSTU…` | 9,550,278.2 | 2.201% | 10% |
+| 7 | `26pV97Ce…` | 9,222,876.15 | 2.125% | 7% |
+| 8 | `9QU2QSxh…` | 7,775,136.55 | 1.792% | 7% |
+| 9 | `DumiCKHV…` | 6,980,318.8 | 1.609% | 0% |
+| 10 | `CvSb7wdQ…` | 6,711,283.53 | 1.547% | 5% |
 
 ## Economic indicators
 
 | Metric | Value |
 |---|---|
-| SOL price | $88.89 |
-| 24h price change | -0.68% |
-| Market cap | $52,537,542,908.566345 |
-| 24h volume | $881,449,578.8230346 |
-| Solana TVL | $5,195,650,945 |
-| TVL 24h change | -0.58% |
+| SOL price | $89.09 |
+| 24h price change | 0.2% |
+| Market cap | $52,663,317,165.93482 |
+| 24h volume | $963,341,398.7538003 |
+| Solana TVL | $5,191,409,823 |
+| TVL 24h change | -0.66% |
 | DEX volume (24h) | $917,438,831.6099999 |
 | Stablecoin supply | $15,177,858,508.23 |
 | Median tx fee | — |
