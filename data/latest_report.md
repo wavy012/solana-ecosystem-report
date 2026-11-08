@@ -1,27 +1,28 @@
 # Solana Ecosystem Report
-_Generated 2026-11-08T03:54:41+00:00_
+_Generated 2026-11-08T10:59:19+00:00_
 
 ## Anomalies
 
-- No metric breached its threshold this run.
+- **[WARNING]** TPS drop: 959.89 vs rolling baseline 1816.86 (-47.2%).
+- **[WARNING]** Validator delinquency at 5.02% (>= 5% threshold).
 
 ## Network performance
 
 | Metric | Value |
 |---|---|
-| Current slot | 466,771,338 |
+| Current slot | 466,890,156 |
 | Current epoch | 1,080 |
-| Epoch progress | 48.92% |
-| Avg TPS (recent) | 1,335.09 |
-| Max TPS (recent) | 2,060.22 |
-| Avg slot time | 215.16 ms |
+| Epoch progress | 76.43% |
+| Avg TPS (recent) | 959.89 |
+| Max TPS (recent) | 1,149.53 |
+| Avg slot time | 213.93 ms |
 | Cluster health | ok |
 
 ## Validator status
 
-- Active validators: **664**
-- Delinquent validators: **33**
-- Delinquency rate: **4.73%**
+- Active validators: **662**
+- Delinquent validators: **35**
+- Delinquency rate: **5.02%**
 - Total active stake: **434,780,964.77 SOL**
 - Median commission: **5.0%**
 
@@ -44,12 +45,12 @@ _Generated 2026-11-08T03:54:41+00:00_
 
 | Metric | Value |
 |---|---|
-| SOL price | $89.19 |
-| 24h price change | -0.77% |
-| Market cap | $52,716,770,991.295074 |
-| 24h volume | $831,146,258.2843847 |
-| Solana TVL | $5,175,331,221 |
-| TVL 24h change | -0.95% |
+| SOL price | $89.12 |
+| 24h price change | -0.84% |
+| Market cap | $52,668,903,915.99855 |
+| 24h volume | $847,348,257.3911549 |
+| Solana TVL | $5,182,654,329 |
+| TVL 24h change | -0.83% |
 | DEX volume (24h) | $1,298,697,085.61 |
 | Stablecoin supply | $15,177,858,508.23 |
 | Median tx fee | — |
