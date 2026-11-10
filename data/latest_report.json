@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-11-10T09:05:37+00:00",
+  "generated_at_utc": "2026-11-10T17:11:32+00:00",
   "network_performance": {
-    "current_slot": 467663667,
+    "current_slot": 467799642,
     "current_epoch": 1082,
-    "epoch_progress_pct": 55.48,
-    "slot_index_in_epoch": 239668,
+    "epoch_progress_pct": 86.96,
+    "slot_index_in_epoch": 375666,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1295.99,
-    "max_tps_recent": 2149.17,
-    "avg_slot_time_ms": 213.85,
-    "latest_block_time_unix": 1794301528,
+    "avg_tps_recent": 2399.17,
+    "max_tps_recent": 2975.27,
+    "avg_slot_time_ms": 214.46,
+    "latest_block_time_unix": 1794330644,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 657,
-    "delinquent_validator_count": 41,
-    "delinquency_pct": 5.87,
+    "active_validator_count": 656,
+    "delinquent_validator_count": 42,
+    "delinquency_pct": 6.02,
     "total_active_stake_sol": 434984472.35,
     "top_validators_by_stake": [
       {
@@ -89,18 +89,18 @@
         "commission_pct": 5
       }
     ],
-    "avg_commission_pct": 12.81,
-    "median_commission_pct": 5,
+    "avg_commission_pct": 12.67,
+    "median_commission_pct": 5.0,
     "zero_commission_validator_count": 218
   },
   "economic_indicators": {
-    "sol_price_usd": 85.4,
-    "sol_price_change_24h_pct": -1.91,
-    "sol_market_cap_usd": 50477518188.57943,
-    "sol_24h_volume_usd": 2033471296.9262578,
-    "solana_tvl_usd": 5042877076,
-    "solana_tvl_change_24h_pct": -1.02,
-    "solana_dex_volume_24h_usd": 1294282228.3200002,
+    "sol_price_usd": 81.83,
+    "sol_price_change_24h_pct": -5.73,
+    "sol_market_cap_usd": 48350417680.58863,
+    "sol_24h_volume_usd": 2837932917.210801,
+    "solana_tvl_usd": 4967451619,
+    "solana_tvl_change_24h_pct": -2.5,
+    "solana_dex_volume_24h_usd": 1487777537.3200002,
     "solana_stablecoin_supply_usd": 14863405519.810001,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
@@ -143,10 +143,18 @@
   },
   "anomalies": [
     {
+      "metric": "avg_tps_recent",
+      "severity": "warning",
+      "message": "TPS spike: 2399.17 vs rolling baseline 1558.25 (54.0%).",
+      "value": 2399.17,
+      "baseline": 1558.25,
+      "deviation_pct": 54.0
+    },
+    {
       "metric": "delinquency_pct",
       "severity": "warning",
-      "message": "Validator delinquency at 5.87% (>= 5% threshold).",
-      "value": 5.87,
+      "message": "Validator delinquency at 6.02% (>= 5% threshold).",
+      "value": 6.02,
       "threshold": 5
     }
   ]
