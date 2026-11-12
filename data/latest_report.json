@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-11-11T23:56:53+00:00",
+  "generated_at_utc": "2026-11-12T05:46:10+00:00",
   "network_performance": {
-    "current_slot": 468315376,
+    "current_slot": 468412980,
     "current_epoch": 1084,
-    "epoch_progress_pct": 6.34,
-    "slot_index_in_epoch": 27381,
+    "epoch_progress_pct": 28.93,
+    "slot_index_in_epoch": 124981,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 2298.25,
-    "max_tps_recent": 3635.02,
-    "avg_slot_time_ms": 215.21,
-    "latest_block_time_unix": 1794441389,
+    "avg_tps_recent": 1467.36,
+    "max_tps_recent": 2131.12,
+    "avg_slot_time_ms": 214.63,
+    "latest_block_time_unix": 1794462362,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -94,14 +94,14 @@
     "zero_commission_validator_count": 223
   },
   "economic_indicators": {
-    "sol_price_usd": 83.26,
-    "sol_price_change_24h_pct": -0.01,
-    "sol_market_cap_usd": 49244030664.359924,
-    "sol_24h_volume_usd": 2110026962.5203085,
-    "solana_tvl_usd": 5070130343,
-    "solana_tvl_change_24h_pct": 0.33,
-    "solana_dex_volume_24h_usd": 1342063202.3400002,
-    "solana_stablecoin_supply_usd": 14329767364.73,
+    "sol_price_usd": 82.85,
+    "sol_price_change_24h_pct": -0.27,
+    "sol_market_cap_usd": 49010715146.7071,
+    "sol_24h_volume_usd": 2100206360.4993525,
+    "solana_tvl_usd": 5024379848,
+    "solana_tvl_change_24h_pct": -0.02,
+    "solana_dex_volume_24h_usd": 1636935274.95,
+    "solana_stablecoin_supply_usd": 14254952823.75,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
   },
@@ -142,14 +142,6 @@
     "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
   },
   "anomalies": [
-    {
-      "metric": "avg_tps_recent",
-      "severity": "warning",
-      "message": "TPS spike: 2298.25 vs rolling baseline 1610.54 (42.7%).",
-      "value": 2298.25,
-      "baseline": 1610.54,
-      "deviation_pct": 42.7
-    },
     {
       "metric": "delinquency_pct",
       "severity": "warning",
