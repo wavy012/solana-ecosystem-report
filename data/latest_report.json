@@ -1,107 +1,107 @@
 {
-  "generated_at_utc": "2026-11-13T22:46:01+00:00",
+  "generated_at_utc": "2026-11-14T02:51:55+00:00",
   "network_performance": {
-    "current_slot": 469098382,
-    "current_epoch": 1085,
-    "epoch_progress_pct": 87.59,
-    "slot_index_in_epoch": 378382,
+    "current_slot": 469166973,
+    "current_epoch": 1086,
+    "epoch_progress_pct": 3.47,
+    "slot_index_in_epoch": 14974,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1925.48,
-    "max_tps_recent": 3135.22,
-    "avg_slot_time_ms": 215.08,
-    "latest_block_time_unix": 1794609952,
+    "avg_tps_recent": 2176.85,
+    "max_tps_recent": 3454.9,
+    "avg_slot_time_ms": 215.29,
+    "latest_block_time_unix": 1794624705,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 661,
-    "delinquent_validator_count": 38,
-    "delinquency_pct": 5.44,
-    "total_active_stake_sol": 432410499.07,
+    "active_validator_count": 663,
+    "delinquent_validator_count": 36,
+    "delinquency_pct": 5.15,
+    "total_active_stake_sol": 429651630.95,
     "top_validators_by_stake": [
       {
         "vote_pubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
         "node_pubkey": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "activated_stake_sol": 16815754.94,
-        "stake_share_pct": 3.889,
+        "activated_stake_sol": 16955905.04,
+        "stake_share_pct": 3.946,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
         "node_pubkey": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "activated_stake_sol": 16140175.44,
-        "stake_share_pct": 3.733,
+        "activated_stake_sol": 16374908.88,
+        "stake_share_pct": 3.811,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
         "node_pubkey": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        "activated_stake_sol": 12976229.26,
-        "stake_share_pct": 3.001,
+        "activated_stake_sol": 12611498.27,
+        "stake_share_pct": 2.935,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
         "node_pubkey": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-        "activated_stake_sol": 10117721.9,
-        "stake_share_pct": 2.34,
+        "activated_stake_sol": 10140468.47,
+        "stake_share_pct": 2.36,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
         "node_pubkey": "7jtWrBuj9k2E5RnoHGWSBosBwqwjZMvEnhe9qGLJdhT4",
-        "activated_stake_sol": 9699456.36,
-        "stake_share_pct": 2.243,
+        "activated_stake_sol": 9736889.59,
+        "stake_share_pct": 2.266,
         "commission_pct": 10
       },
       {
         "vote_pubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
         "node_pubkey": "JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr",
-        "activated_stake_sol": 9578398.37,
-        "stake_share_pct": 2.215,
+        "activated_stake_sol": 9574439.09,
+        "stake_share_pct": 2.228,
         "commission_pct": 5
       },
       {
         "vote_pubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
         "node_pubkey": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "activated_stake_sol": 9240075.74,
-        "stake_share_pct": 2.137,
+        "activated_stake_sol": 9199377.38,
+        "stake_share_pct": 2.141,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
         "node_pubkey": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "activated_stake_sol": 7863387.45,
-        "stake_share_pct": 1.819,
+        "activated_stake_sol": 7914792.05,
+        "stake_share_pct": 1.842,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
         "node_pubkey": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "activated_stake_sol": 6989060.42,
-        "stake_share_pct": 1.616,
+        "activated_stake_sol": 6990062.04,
+        "stake_share_pct": 1.627,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
         "node_pubkey": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "activated_stake_sol": 6712616.92,
-        "stake_share_pct": 1.552,
+        "activated_stake_sol": 6707744.9,
+        "stake_share_pct": 1.561,
         "commission_pct": 5
       }
     ],
-    "avg_commission_pct": 12.73,
+    "avg_commission_pct": 12.69,
     "median_commission_pct": 5,
-    "zero_commission_validator_count": 223
+    "zero_commission_validator_count": 225
   },
   "economic_indicators": {
-    "sol_price_usd": 78.3,
-    "sol_price_change_24h_pct": -3.68,
-    "sol_market_cap_usd": 46330205977.73168,
-    "sol_24h_volume_usd": 3470048525.1911893,
-    "solana_tvl_usd": 4931449675,
-    "solana_tvl_change_24h_pct": -2.07,
-    "solana_dex_volume_24h_usd": 1503485412.77,
-    "solana_stablecoin_supply_usd": 14405699311.35,
+    "sol_price_usd": 76.0,
+    "sol_price_change_24h_pct": -5.08,
+    "sol_market_cap_usd": 44958667565.726906,
+    "sol_24h_volume_usd": 3806733226.1162834,
+    "solana_tvl_usd": 4867728291,
+    "solana_tvl_change_24h_pct": -1.0,
+    "solana_dex_volume_24h_usd": 1453256848.2,
+    "solana_stablecoin_supply_usd": 14255798493.57,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
   },
@@ -145,8 +145,8 @@
     {
       "metric": "delinquency_pct",
       "severity": "warning",
-      "message": "Validator delinquency at 5.44% (>= 5% threshold).",
-      "value": 5.44,
+      "message": "Validator delinquency at 5.15% (>= 5% threshold).",
+      "value": 5.15,
       "threshold": 5
     }
   ]
