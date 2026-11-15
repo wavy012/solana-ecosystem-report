@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-11-14T20:50:59+00:00",
+  "generated_at_utc": "2026-11-15T00:37:32+00:00",
   "network_performance": {
-    "current_slot": 469468040,
+    "current_slot": 469531062,
     "current_epoch": 1086,
-    "epoch_progress_pct": 73.16,
-    "slot_index_in_epoch": 316040,
+    "epoch_progress_pct": 87.75,
+    "slot_index_in_epoch": 379063,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1919.3,
-    "max_tps_recent": 2791.55,
-    "avg_slot_time_ms": 215.18,
-    "latest_block_time_unix": 1794689451,
+    "avg_tps_recent": 2202.82,
+    "max_tps_recent": 2849.68,
+    "avg_slot_time_ms": 215.81,
+    "latest_block_time_unix": 1794703042,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 663,
-    "delinquent_validator_count": 36,
-    "delinquency_pct": 5.15,
+    "active_validator_count": 662,
+    "delinquent_validator_count": 37,
+    "delinquency_pct": 5.29,
     "total_active_stake_sol": 429651630.95,
     "top_validators_by_stake": [
       {
@@ -89,18 +89,18 @@
         "commission_pct": 5
       }
     ],
-    "avg_commission_pct": 12.87,
-    "median_commission_pct": 5,
+    "avg_commission_pct": 12.74,
+    "median_commission_pct": 5.0,
     "zero_commission_validator_count": 221
   },
   "economic_indicators": {
-    "sol_price_usd": 71.6,
-    "sol_price_change_24h_pct": -10.58,
-    "sol_market_cap_usd": 42359285621.513275,
-    "sol_24h_volume_usd": 3855071280.314305,
-    "solana_tvl_usd": 4705108658,
-    "solana_tvl_change_24h_pct": -5.88,
-    "solana_dex_volume_24h_usd": 1560618093.2,
+    "sol_price_usd": 69.83,
+    "sol_price_change_24h_pct": -10.46,
+    "sol_market_cap_usd": 41364615331.70727,
+    "sol_24h_volume_usd": 4445356160.386571,
+    "solana_tvl_usd": 4606008589,
+    "solana_tvl_change_24h_pct": -7.87,
+    "solana_dex_volume_24h_usd": 1581689115.09,
     "solana_stablecoin_supply_usd": 14255788694.57,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
@@ -145,15 +145,15 @@
     {
       "metric": "delinquency_pct",
       "severity": "warning",
-      "message": "Validator delinquency at 5.15% (>= 5% threshold).",
-      "value": 5.15,
+      "message": "Validator delinquency at 5.29% (>= 5% threshold).",
+      "value": 5.29,
       "threshold": 5
     },
     {
       "metric": "sol_price_change_24h_pct",
       "severity": "info",
-      "message": "SOL price down 10.58% in 24h (>= 10% threshold).",
-      "value": -10.58,
+      "message": "SOL price down 10.46% in 24h (>= 10% threshold).",
+      "value": -10.46,
       "threshold": 10
     }
   ]
