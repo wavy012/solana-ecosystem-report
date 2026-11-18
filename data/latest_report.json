@@ -1,106 +1,106 @@
 {
-  "generated_at_utc": "2026-11-18T08:47:30+00:00",
+  "generated_at_utc": "2026-11-18T17:44:10+00:00",
   "network_performance": {
-    "current_slot": 470873307,
-    "current_epoch": 1089,
-    "epoch_progress_pct": 98.45,
-    "slot_index_in_epoch": 425307,
+    "current_slot": 471022368,
+    "current_epoch": 1090,
+    "epoch_progress_pct": 32.96,
+    "slot_index_in_epoch": 142370,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1281.81,
-    "max_tps_recent": 1615.97,
-    "avg_slot_time_ms": 215.19,
-    "latest_block_time_unix": 1794991641,
+    "avg_tps_recent": 2607.39,
+    "max_tps_recent": 3076.18,
+    "avg_slot_time_ms": 215.86,
+    "latest_block_time_unix": 1795023833,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 661,
-    "delinquent_validator_count": 5,
-    "delinquency_pct": 0.75,
-    "total_active_stake_sol": 428796575.89,
+    "active_validator_count": 660,
+    "delinquent_validator_count": 25,
+    "delinquency_pct": 3.65,
+    "total_active_stake_sol": 426746615.63,
     "top_validators_by_stake": [
       {
         "vote_pubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
         "node_pubkey": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "activated_stake_sol": 16834343.15,
-        "stake_share_pct": 3.926,
+        "activated_stake_sol": 17030758.55,
+        "stake_share_pct": 3.991,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
         "node_pubkey": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "activated_stake_sol": 16442667.55,
-        "stake_share_pct": 3.835,
+        "activated_stake_sol": 16476078.06,
+        "stake_share_pct": 3.861,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
         "node_pubkey": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        "activated_stake_sol": 12432777.89,
-        "stake_share_pct": 2.899,
+        "activated_stake_sol": 12423469.92,
+        "stake_share_pct": 2.911,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
         "node_pubkey": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-        "activated_stake_sol": 10144846.19,
-        "stake_share_pct": 2.366,
+        "activated_stake_sol": 10297722.42,
+        "stake_share_pct": 2.413,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
         "node_pubkey": "7jtWrBuj9k2E5RnoHGWSBosBwqwjZMvEnhe9qGLJdhT4",
-        "activated_stake_sol": 9802677.35,
-        "stake_share_pct": 2.286,
+        "activated_stake_sol": 9815429.72,
+        "stake_share_pct": 2.3,
         "commission_pct": 10
       },
       {
         "vote_pubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
         "node_pubkey": "JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr",
-        "activated_stake_sol": 9625020.62,
-        "stake_share_pct": 2.245,
+        "activated_stake_sol": 9574561.83,
+        "stake_share_pct": 2.244,
         "commission_pct": 5
       },
       {
         "vote_pubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
         "node_pubkey": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "activated_stake_sol": 9218744.86,
-        "stake_share_pct": 2.15,
+        "activated_stake_sol": 9222715.31,
+        "stake_share_pct": 2.161,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
         "node_pubkey": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "activated_stake_sol": 7970890.85,
-        "stake_share_pct": 1.859,
+        "activated_stake_sol": 7973219.71,
+        "stake_share_pct": 1.868,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
         "node_pubkey": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "activated_stake_sol": 6996288.22,
-        "stake_share_pct": 1.632,
+        "activated_stake_sol": 6996719.76,
+        "stake_share_pct": 1.64,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
         "node_pubkey": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "activated_stake_sol": 6730472.2,
-        "stake_share_pct": 1.57,
+        "activated_stake_sol": 6771471.63,
+        "stake_share_pct": 1.587,
         "commission_pct": 5
       }
     ],
-    "avg_commission_pct": 12.85,
-    "median_commission_pct": 5,
-    "zero_commission_validator_count": 219
+    "avg_commission_pct": 12.61,
+    "median_commission_pct": 5.0,
+    "zero_commission_validator_count": 220
   },
   "economic_indicators": {
-    "sol_price_usd": 74.75,
-    "sol_price_change_24h_pct": 3.21,
-    "sol_market_cap_usd": 44219355447.67752,
-    "sol_24h_volume_usd": 2953530420.856562,
-    "solana_tvl_usd": 4780245696,
-    "solana_tvl_change_24h_pct": 1.51,
-    "solana_dex_volume_24h_usd": 1498341536.17,
+    "sol_price_usd": 73.7,
+    "sol_price_change_24h_pct": 2.1,
+    "sol_market_cap_usd": 43614277749.54792,
+    "sol_24h_volume_usd": 2426830497.4638247,
+    "solana_tvl_usd": 4711023247,
+    "solana_tvl_change_24h_pct": 0.04,
+    "solana_dex_volume_24h_usd": 1509645641.17,
     "solana_stablecoin_supply_usd": 14006376566.66,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
@@ -141,5 +141,14 @@
     "demo_address_recent_signatures": "RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}",
     "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "avg_tps_recent",
+      "severity": "warning",
+      "message": "TPS spike: 2607.39 vs rolling baseline 1672.58 (55.9%).",
+      "value": 2607.39,
+      "baseline": 1672.58,
+      "deviation_pct": 55.9
+    }
+  ]
 }
