@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-11-18T17:44:10+00:00",
+  "generated_at_utc": "2026-11-18T23:47:42+00:00",
   "network_performance": {
-    "current_slot": 471022368,
+    "current_slot": 471123613,
     "current_epoch": 1090,
-    "epoch_progress_pct": 32.96,
-    "slot_index_in_epoch": 142370,
+    "epoch_progress_pct": 56.39,
+    "slot_index_in_epoch": 243614,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 2607.39,
-    "max_tps_recent": 3076.18,
-    "avg_slot_time_ms": 215.86,
-    "latest_block_time_unix": 1795023833,
+    "avg_tps_recent": 2303.83,
+    "max_tps_recent": 2787.83,
+    "avg_slot_time_ms": 215.7,
+    "latest_block_time_unix": 1795045652,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -89,17 +89,17 @@
         "commission_pct": 5
       }
     ],
-    "avg_commission_pct": 12.61,
+    "avg_commission_pct": 12.76,
     "median_commission_pct": 5.0,
-    "zero_commission_validator_count": 220
+    "zero_commission_validator_count": 219
   },
   "economic_indicators": {
-    "sol_price_usd": 73.7,
-    "sol_price_change_24h_pct": 2.1,
-    "sol_market_cap_usd": 43614277749.54792,
-    "sol_24h_volume_usd": 2426830497.4638247,
-    "solana_tvl_usd": 4711023247,
-    "solana_tvl_change_24h_pct": 0.04,
+    "sol_price_usd": 73.66,
+    "sol_price_change_24h_pct": -1.65,
+    "sol_market_cap_usd": 43596980288.15064,
+    "sol_24h_volume_usd": 2214124685.92089,
+    "solana_tvl_usd": 4702380846,
+    "solana_tvl_change_24h_pct": -0.14,
     "solana_dex_volume_24h_usd": 1509645641.17,
     "solana_stablecoin_supply_usd": 14006376566.66,
     "median_tx_fee_lamports": null,
@@ -145,10 +145,10 @@
     {
       "metric": "avg_tps_recent",
       "severity": "warning",
-      "message": "TPS spike: 2607.39 vs rolling baseline 1672.58 (55.9%).",
-      "value": 2607.39,
-      "baseline": 1672.58,
-      "deviation_pct": 55.9
+      "message": "TPS spike: 2303.83 vs rolling baseline 1718.63 (34.1%).",
+      "value": 2303.83,
+      "baseline": 1718.63,
+      "deviation_pct": 34.1
     }
   ]
 }
