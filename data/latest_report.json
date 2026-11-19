@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-11-18T23:47:42+00:00",
+  "generated_at_utc": "2026-11-19T05:32:11+00:00",
   "network_performance": {
-    "current_slot": 471123613,
+    "current_slot": 471219751,
     "current_epoch": 1090,
-    "epoch_progress_pct": 56.39,
-    "slot_index_in_epoch": 243614,
+    "epoch_progress_pct": 78.65,
+    "slot_index_in_epoch": 339751,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 2303.83,
-    "max_tps_recent": 2787.83,
-    "avg_slot_time_ms": 215.7,
-    "latest_block_time_unix": 1795045652,
+    "avg_tps_recent": 1673.47,
+    "max_tps_recent": 2480.18,
+    "avg_slot_time_ms": 214.72,
+    "latest_block_time_unix": 1795066322,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -94,14 +94,14 @@
     "zero_commission_validator_count": 219
   },
   "economic_indicators": {
-    "sol_price_usd": 73.66,
-    "sol_price_change_24h_pct": -1.65,
-    "sol_market_cap_usd": 43596980288.15064,
-    "sol_24h_volume_usd": 2214124685.92089,
-    "solana_tvl_usd": 4702380846,
-    "solana_tvl_change_24h_pct": -0.14,
-    "solana_dex_volume_24h_usd": 1509645641.17,
-    "solana_stablecoin_supply_usd": 14006376566.66,
+    "sol_price_usd": 74.49,
+    "sol_price_change_24h_pct": -1.29,
+    "sol_market_cap_usd": 44084680043.17387,
+    "sol_24h_volume_usd": 2138537044.1674588,
+    "solana_tvl_usd": 4729041943,
+    "solana_tvl_change_24h_pct": -1.41,
+    "solana_dex_volume_24h_usd": 1701658023.3100002,
+    "solana_stablecoin_supply_usd": 13084756273.61,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
   },
@@ -141,14 +141,5 @@
     "demo_address_recent_signatures": "RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}",
     "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
   },
-  "anomalies": [
-    {
-      "metric": "avg_tps_recent",
-      "severity": "warning",
-      "message": "TPS spike: 2303.83 vs rolling baseline 1718.63 (34.1%).",
-      "value": 2303.83,
-      "baseline": 1718.63,
-      "deviation_pct": 34.1
-    }
-  ]
+  "anomalies": []
 }
