@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-11-21T16:53:07+00:00",
+  "generated_at_utc": "2026-11-21T21:59:12+00:00",
   "network_performance": {
-    "current_slot": 472212856,
+    "current_slot": 472298291,
     "current_epoch": 1093,
-    "epoch_progress_pct": 8.53,
-    "slot_index_in_epoch": 36856,
+    "epoch_progress_pct": 28.31,
+    "slot_index_in_epoch": 122291,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1602.66,
-    "max_tps_recent": 2279.6,
-    "avg_slot_time_ms": 215.81,
-    "latest_block_time_unix": 1795279978,
+    "avg_tps_recent": 1935.79,
+    "max_tps_recent": 2488.27,
+    "avg_slot_time_ms": 214.9,
+    "latest_block_time_unix": 1795298344,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -94,12 +94,12 @@
     "zero_commission_validator_count": 220
   },
   "economic_indicators": {
-    "sol_price_usd": 70.58,
-    "sol_price_change_24h_pct": 1.73,
-    "sol_market_cap_usd": 41778072599.08559,
-    "sol_24h_volume_usd": 4582879873.085234,
-    "solana_tvl_usd": 4573771762,
-    "solana_tvl_change_24h_pct": -2.91,
+    "sol_price_usd": 70.31,
+    "sol_price_change_24h_pct": 1.97,
+    "sol_market_cap_usd": 41616345505.70662,
+    "sol_24h_volume_usd": 3782728804.457781,
+    "solana_tvl_usd": 4606268989,
+    "solana_tvl_change_24h_pct": -2.22,
     "solana_dex_volume_24h_usd": 1884688072.35,
     "solana_stablecoin_supply_usd": 13288934081.24,
     "median_tx_fee_lamports": null,
