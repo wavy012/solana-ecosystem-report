@@ -1,106 +1,106 @@
 {
-  "generated_at_utc": "2026-11-21T09:05:45+00:00",
+  "generated_at_utc": "2026-11-21T16:53:07+00:00",
   "network_performance": {
-    "current_slot": 472082381,
-    "current_epoch": 1092,
-    "epoch_progress_pct": 78.33,
-    "slot_index_in_epoch": 338381,
+    "current_slot": 472212856,
+    "current_epoch": 1093,
+    "epoch_progress_pct": 8.53,
+    "slot_index_in_epoch": 36856,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1159.17,
-    "max_tps_recent": 1593.03,
-    "avg_slot_time_ms": 214.91,
-    "latest_block_time_unix": 1795251935,
+    "avg_tps_recent": 1602.66,
+    "max_tps_recent": 2279.6,
+    "avg_slot_time_ms": 215.81,
+    "latest_block_time_unix": 1795279978,
     "cluster_health": "ok"
   },
   "validator_status": {
     "active_validator_count": 661,
     "delinquent_validator_count": 24,
     "delinquency_pct": 3.5,
-    "total_active_stake_sol": 428985796.8,
+    "total_active_stake_sol": 428316392.11,
     "top_validators_by_stake": [
       {
         "vote_pubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
         "node_pubkey": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "activated_stake_sol": 17041637.89,
-        "stake_share_pct": 3.973,
+        "activated_stake_sol": 17043671.14,
+        "stake_share_pct": 3.979,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
         "node_pubkey": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "activated_stake_sol": 16354101.2,
-        "stake_share_pct": 3.812,
+        "activated_stake_sol": 16329817.4,
+        "stake_share_pct": 3.813,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
         "node_pubkey": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        "activated_stake_sol": 12422891.16,
-        "stake_share_pct": 2.896,
+        "activated_stake_sol": 12412620.37,
+        "stake_share_pct": 2.898,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
         "node_pubkey": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-        "activated_stake_sol": 10309120.92,
-        "stake_share_pct": 2.403,
+        "activated_stake_sol": 10241723.67,
+        "stake_share_pct": 2.391,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
         "node_pubkey": "7jtWrBuj9k2E5RnoHGWSBosBwqwjZMvEnhe9qGLJdhT4",
-        "activated_stake_sol": 9779397.3,
-        "stake_share_pct": 2.28,
+        "activated_stake_sol": 9826792.86,
+        "stake_share_pct": 2.294,
         "commission_pct": 10
       },
       {
         "vote_pubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
         "node_pubkey": "JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr",
-        "activated_stake_sol": 9564402.59,
-        "stake_share_pct": 2.23,
+        "activated_stake_sol": 9616960.74,
+        "stake_share_pct": 2.245,
         "commission_pct": 5
       },
       {
         "vote_pubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
         "node_pubkey": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "activated_stake_sol": 9231683.14,
-        "stake_share_pct": 2.152,
+        "activated_stake_sol": 9237166.0,
+        "stake_share_pct": 2.157,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
         "node_pubkey": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "activated_stake_sol": 7986182.36,
-        "stake_share_pct": 1.862,
+        "activated_stake_sol": 7985736.68,
+        "stake_share_pct": 1.864,
         "commission_pct": 7
       },
       {
         "vote_pubkey": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
         "node_pubkey": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "activated_stake_sol": 6985765.18,
-        "stake_share_pct": 1.628,
+        "activated_stake_sol": 6985062.5,
+        "stake_share_pct": 1.631,
         "commission_pct": 0
       },
       {
         "vote_pubkey": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
         "node_pubkey": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "activated_stake_sol": 6773182.11,
-        "stake_share_pct": 1.579,
+        "activated_stake_sol": 6774153.83,
+        "stake_share_pct": 1.582,
         "commission_pct": 5
       }
     ],
-    "avg_commission_pct": 13.04,
+    "avg_commission_pct": 12.74,
     "median_commission_pct": 5,
-    "zero_commission_validator_count": 218
+    "zero_commission_validator_count": 220
   },
   "economic_indicators": {
-    "sol_price_usd": 67.28,
-    "sol_price_change_24h_pct": -7.04,
-    "sol_market_cap_usd": 39828630674.205376,
-    "sol_24h_volume_usd": 4678766437.088335,
-    "solana_tvl_usd": 4488478379,
-    "solana_tvl_change_24h_pct": -4.72,
-    "solana_dex_volume_24h_usd": 1836080739.35,
+    "sol_price_usd": 70.58,
+    "sol_price_change_24h_pct": 1.73,
+    "sol_market_cap_usd": 41778072599.08559,
+    "sol_24h_volume_usd": 4582879873.085234,
+    "solana_tvl_usd": 4573771762,
+    "solana_tvl_change_24h_pct": -2.91,
+    "solana_dex_volume_24h_usd": 1884688072.35,
     "solana_stablecoin_supply_usd": 13288934081.24,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
@@ -141,14 +141,5 @@
     "demo_address_recent_signatures": "RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}",
     "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
   },
-  "anomalies": [
-    {
-      "metric": "avg_tps_recent",
-      "severity": "warning",
-      "message": "TPS drop: 1159.17 vs rolling baseline 1786.65 (-35.1%).",
-      "value": 1159.17,
-      "baseline": 1786.65,
-      "deviation_pct": -35.1
-    }
-  ]
+  "anomalies": []
 }
