@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-11-22T01:58:43+00:00",
+  "generated_at_utc": "2026-11-22T09:30:19+00:00",
   "network_performance": {
-    "current_slot": 472365108,
+    "current_slot": 472491104,
     "current_epoch": 1093,
-    "epoch_progress_pct": 43.78,
-    "slot_index_in_epoch": 189109,
+    "epoch_progress_pct": 72.94,
+    "slot_index_in_epoch": 315105,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1634.87,
-    "max_tps_recent": 2090.37,
-    "avg_slot_time_ms": 214.75,
-    "latest_block_time_unix": 1795312714,
+    "avg_tps_recent": 1107.1,
+    "max_tps_recent": 1488.2,
+    "avg_slot_time_ms": 214.54,
+    "latest_block_time_unix": 1795339807,
     "cluster_health": "ok"
   },
   "validator_status": {
@@ -89,18 +89,18 @@
         "commission_pct": 5
       }
     ],
-    "avg_commission_pct": 12.74,
+    "avg_commission_pct": 12.9,
     "median_commission_pct": 5,
-    "zero_commission_validator_count": 220
+    "zero_commission_validator_count": 219
   },
   "economic_indicators": {
-    "sol_price_usd": 70.26,
-    "sol_price_change_24h_pct": 2.38,
-    "sol_market_cap_usd": 41585873921.50117,
-    "sol_24h_volume_usd": 3597790156.6338863,
-    "solana_tvl_usd": 4599027633,
-    "solana_tvl_change_24h_pct": 0.0,
-    "solana_dex_volume_24h_usd": 1560565539.87,
+    "sol_price_usd": 69.74,
+    "sol_price_change_24h_pct": 2.67,
+    "sol_market_cap_usd": 41295168724.8132,
+    "sol_24h_volume_usd": 2306180183.3404675,
+    "solana_tvl_usd": 4559248693,
+    "solana_tvl_change_24h_pct": 0.21,
+    "solana_dex_volume_24h_usd": 1560546106.87,
     "solana_stablecoin_supply_usd": 13395720227.5,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
@@ -141,5 +141,14 @@
     "demo_address_recent_signatures": "RPC error calling getSignaturesForAddress: {'code': -32602, 'message': 'Invalid param: WrongSize'}",
     "sample_block": "RPC error calling getBlock: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "avg_tps_recent",
+      "severity": "warning",
+      "message": "TPS drop: 1107.1 vs rolling baseline 1792.72 (-38.2%).",
+      "value": 1107.1,
+      "baseline": 1792.72,
+      "deviation_pct": -38.2
+    }
+  ]
 }
