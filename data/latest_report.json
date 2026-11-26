@@ -1,21 +1,21 @@
 {
-  "generated_at_utc": "2026-11-25T23:26:50+00:00",
+  "generated_at_utc": "2026-11-26T05:17:38+00:00",
   "network_performance": {
-    "current_slot": 473929967,
+    "current_slot": 474027873,
     "current_epoch": 1097,
-    "epoch_progress_pct": 6.01,
-    "slot_index_in_epoch": 25967,
+    "epoch_progress_pct": 28.67,
+    "slot_index_in_epoch": 123873,
     "slots_in_epoch": 432000,
-    "avg_tps_recent": 1928.43,
-    "max_tps_recent": 2471.98,
-    "avg_slot_time_ms": 215.71,
-    "latest_block_time_unix": 1795649199,
+    "avg_tps_recent": 1301.9,
+    "max_tps_recent": 1699.97,
+    "avg_slot_time_ms": 215.6,
+    "latest_block_time_unix": 1795670250,
     "cluster_health": "ok"
   },
   "validator_status": {
-    "active_validator_count": 655,
-    "delinquent_validator_count": 33,
-    "delinquency_pct": 4.8,
+    "active_validator_count": 657,
+    "delinquent_validator_count": 31,
+    "delinquency_pct": 4.51,
     "total_active_stake_sol": 423675927.38,
     "top_validators_by_stake": [
       {
@@ -89,19 +89,19 @@
         "commission_pct": 5
       }
     ],
-    "avg_commission_pct": 13.04,
+    "avg_commission_pct": 13.09,
     "median_commission_pct": 5,
     "zero_commission_validator_count": 219
   },
   "economic_indicators": {
-    "sol_price_usd": 70.36,
-    "sol_price_change_24h_pct": 0.54,
-    "sol_market_cap_usd": 41664382268.65128,
-    "sol_24h_volume_usd": 3396498768.3011293,
-    "solana_tvl_usd": 4561373295,
-    "solana_tvl_change_24h_pct": -1.58,
-    "solana_dex_volume_24h_usd": 1456786849.44,
-    "solana_stablecoin_supply_usd": 13547331506.480001,
+    "sol_price_usd": 71.13,
+    "sol_price_change_24h_pct": 3.69,
+    "sol_market_cap_usd": 42114369146.340775,
+    "sol_24h_volume_usd": 3304204184.138349,
+    "solana_tvl_usd": 4588491138,
+    "solana_tvl_change_24h_pct": 1.47,
+    "solana_dex_volume_24h_usd": 1470355123.7999997,
+    "solana_stablecoin_supply_usd": 13365085540.74,
     "median_tx_fee_lamports": null,
     "estimated_rev_usd_per_block": null
   },
